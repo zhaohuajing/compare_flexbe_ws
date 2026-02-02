@@ -1,1 +1,3 @@
-/home/csrobot/flexbe_ws/src/flexbe_behavior_engine/flexbe_msgs/msg/BehaviorModification.msg
+int32 index_begin
+int32 index_end
+string new_content

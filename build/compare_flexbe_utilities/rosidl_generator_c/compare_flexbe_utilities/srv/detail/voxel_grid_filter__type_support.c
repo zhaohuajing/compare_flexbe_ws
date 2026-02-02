@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "compare_flexbe_utilities/srv/detail/voxel_grid_filter__functions.h"
+#include "compare_flexbe_utilities/srv/detail/voxel_grid_filter__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "compare_flexbe_utilities/srv/detail/voxel_grid_filter__type_support.h"
-#include "compare_flexbe_utilities/srv/detail/voxel_grid_filter__struct.h"
-#include "compare_flexbe_utilities/srv/detail/voxel_grid_filter__functions.h"
 
 #ifdef __cplusplus
 extern "C"

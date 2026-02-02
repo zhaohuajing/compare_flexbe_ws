@@ -1,1 +1,7 @@
-/home/csrobot/flexbe_ws/build/flexbe_states/tests/log_state_string.test
+path: flexbe_states.log_state
+class: LogState
+
+params:
+    text: "testmsg"
+
+outcome: done

@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "flexbe_msgs/action/detail/behavior_input__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "flexbe_msgs/action/detail/behavior_input__struct.h"
 #include "flexbe_msgs/action/detail/behavior_input__functions.h"
 

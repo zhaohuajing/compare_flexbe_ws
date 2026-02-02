@@ -43,7 +43,31 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/compare_flexbe_behaviors" TYPE DIRECTORY FILES "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_behaviors/manifest")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/compare_flexbe_behaviors" TYPE DIRECTORY FILES "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_behaviors/config")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/compare_flexbe_behaviors" TYPE PROGRAM FILES "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_behaviors/bin/copy_behavior")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors/environment" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_environment_hooks/pythonpath.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors/environment" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_environment_hooks/pythonpath.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/compare_flexbe_behaviors-0.0.1-py3.12.egg-info" TYPE DIRECTORY FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_python/compare_flexbe_behaviors/compare_flexbe_behaviors.egg-info/")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/compare_flexbe_behaviors" TYPE DIRECTORY FILES "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_behaviors/compare_flexbe_behaviors/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -52,6 +76,65 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
         "/usr/bin/python3" "-m" "compileall"
         "/home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors"
       )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/compare_flexbe_behaviors")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/compare_flexbe_behaviors")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors/environment" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors/environment" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_index/share/ament_index/resource_index/packages/compare_flexbe_behaviors")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors/cmake" TYPE FILE FILES
+    "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_core/compare_flexbe_behaviorsConfig.cmake"
+    "/home/csrobot/flexbe_ws/build/compare_flexbe_behaviors/ament_cmake_core/compare_flexbe_behaviorsConfig-version.cmake"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/compare_flexbe_behaviors" TYPE FILE FILES "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_behaviors/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

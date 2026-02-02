@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "flexbe_msgs/msg/detail/synthesis_error_codes__type_support.h"
-#include "flexbe_msgs/msg/detail/synthesis_error_codes__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "flexbe_msgs/msg/detail/synthesis_error_codes__struct.h"
 #include "flexbe_msgs/msg/detail/synthesis_error_codes__functions.h"
 
 #ifdef __cplusplus

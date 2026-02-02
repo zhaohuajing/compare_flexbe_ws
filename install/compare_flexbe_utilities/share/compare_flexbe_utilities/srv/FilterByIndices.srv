@@ -1,1 +1,6 @@
-/home/csrobot/flexbe_ws/src/compare_flexbe_utilities/srv/FilterByIndices.srv
+# Request
+sensor_msgs/PointCloud2 input_cloud
+pcl_msgs/PointIndices target_indices
+---
+# Response
+sensor_msgs/PointCloud2 filtered_cloud

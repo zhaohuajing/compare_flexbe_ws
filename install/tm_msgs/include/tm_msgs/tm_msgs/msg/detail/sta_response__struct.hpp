@@ -1,1 +1,0 @@
-/home/csrobot/flexbe_ws/build/tm_msgs/rosidl_generator_cpp/tm_msgs/msg/detail/sta_response__struct.hpp

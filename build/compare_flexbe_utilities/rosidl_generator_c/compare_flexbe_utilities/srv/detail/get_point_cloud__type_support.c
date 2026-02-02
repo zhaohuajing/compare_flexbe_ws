@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "compare_flexbe_utilities/srv/detail/get_point_cloud__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "compare_flexbe_utilities/srv/detail/get_point_cloud__functions.h"
 #include "compare_flexbe_utilities/srv/detail/get_point_cloud__type_support.h"
-#include "compare_flexbe_utilities/srv/detail/get_point_cloud__struct.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "flexbe_msgs/msg/detail/container__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "flexbe_msgs/msg/detail/container__functions.h"
 #include "flexbe_msgs/msg/detail/container__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "flexbe_msgs/msg/detail/container__struct.h"
 
 #ifdef __cplusplus
 extern "C"

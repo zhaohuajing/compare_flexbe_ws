@@ -1,1 +1,0 @@
-/home/csrobot/flexbe_ws/src/tmr_ros2/tm_moveit/tm12_moveit_config/launch/tm12_run_move_group.launch.py

@@ -1,1 +1,0 @@
-/home/csrobot/flexbe_ws/build/flexbe_turtlesim_demo/ament_cmake_environment_hooks/local_setup.bash

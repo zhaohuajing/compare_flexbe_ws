@@ -1,0 +1,21 @@
+{
+  "package_name": "gpd_ros",
+  "output_dir": "/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_generator_type_description/gpd_ros",
+  "idl_tuples": [
+    "/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/CloudIndexed.idl",
+    "/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/CloudSamples.idl",
+    "/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/CloudSources.idl",
+    "/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/GraspConfig.idl",
+    "/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/GraspConfigList.idl",
+    "/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/SamplesMsg.idl",
+    "/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:srv/DetectGrasps.idl",
+    "/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:srv/ComputeGraspPoses.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

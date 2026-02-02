@@ -13,14 +13,14 @@
     "/home/csrobot/flexbe_ws/build/compare_flexbe_utilities/rosidl_adapter/compare_flexbe_utilities:srv/FilterByIndices.idl"
   ],
   "ros_interface_files": [
-    "/home/csrobot/flexbe_ws/src/compare_flexbe_utilities/srv/CartesianMoveToPose.srv",
-    "/home/csrobot/flexbe_ws/src/compare_flexbe_utilities/srv/MoveToNamedPose.srv",
-    "/home/csrobot/flexbe_ws/src/compare_flexbe_utilities/srv/MoveToPose.srv",
-    "/home/csrobot/flexbe_ws/src/compare_flexbe_utilities/srv/VoxelGridFilter.srv",
-    "/home/csrobot/flexbe_ws/src/compare_flexbe_utilities/srv/PlaneSegmentation.srv",
-    "/home/csrobot/flexbe_ws/src/compare_flexbe_utilities/srv/EuclideanClustering.srv",
-    "/home/csrobot/flexbe_ws/src/compare_flexbe_utilities/srv/GetPointCloud.srv",
-    "/home/csrobot/flexbe_ws/src/compare_flexbe_utilities/srv/FilterByIndices.srv"
+    "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_utilities/srv/CartesianMoveToPose.srv",
+    "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_utilities/srv/MoveToNamedPose.srv",
+    "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_utilities/srv/MoveToPose.srv",
+    "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_utilities/srv/VoxelGridFilter.srv",
+    "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_utilities/srv/PlaneSegmentation.srv",
+    "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_utilities/srv/EuclideanClustering.srv",
+    "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_utilities/srv/GetPointCloud.srv",
+    "/home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_utilities/srv/FilterByIndices.srv"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs/msg/BatteryState.idl",

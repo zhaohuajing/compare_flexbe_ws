@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "flexbe_msgs/msg/detail/state_instantiation__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "flexbe_msgs/msg/detail/state_instantiation__functions.h"
 #include "flexbe_msgs/msg/detail/state_instantiation__type_support.h"
 #include "flexbe_msgs/msg/detail/state_instantiation__struct.h"
 

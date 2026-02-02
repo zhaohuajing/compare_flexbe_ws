@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "flexbe_msgs/srv/detail/get_userdata__functions.h"
-#include "flexbe_msgs/srv/detail/get_userdata__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "flexbe_msgs/srv/detail/get_userdata__struct.h"
+#include "flexbe_msgs/srv/detail/get_userdata__functions.h"
 #include "flexbe_msgs/srv/detail/get_userdata__type_support.h"
 
 #ifdef __cplusplus

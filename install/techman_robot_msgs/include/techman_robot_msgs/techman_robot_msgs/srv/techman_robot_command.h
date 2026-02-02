@@ -1,1 +1,0 @@
-/home/csrobot/flexbe_ws/build/techman_robot_msgs/rosidl_generator_c/techman_robot_msgs/srv/techman_robot_command.h

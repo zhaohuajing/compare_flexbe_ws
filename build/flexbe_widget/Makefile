@@ -198,30 +198,30 @@ flexbe_widget_uninstall/fast:
 .PHONY : flexbe_widget_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_flexbe_widget
+# Target rules for targets named ament_cmake_python_copy_flexbe_widget
 
 # Build rule for target.
-ament_cmake_python_symlink_flexbe_widget: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_flexbe_widget
-.PHONY : ament_cmake_python_symlink_flexbe_widget
+ament_cmake_python_copy_flexbe_widget: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_flexbe_widget
+.PHONY : ament_cmake_python_copy_flexbe_widget
 
 # fast build rule for target.
-ament_cmake_python_symlink_flexbe_widget/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_flexbe_widget.dir/build.make CMakeFiles/ament_cmake_python_symlink_flexbe_widget.dir/build
-.PHONY : ament_cmake_python_symlink_flexbe_widget/fast
+ament_cmake_python_copy_flexbe_widget/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_flexbe_widget.dir/build.make CMakeFiles/ament_cmake_python_copy_flexbe_widget.dir/build
+.PHONY : ament_cmake_python_copy_flexbe_widget/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_flexbe_widget_setup
+# Target rules for targets named ament_cmake_python_copy_flexbe_widget_setup
 
 # Build rule for target.
-ament_cmake_python_symlink_flexbe_widget_setup: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_flexbe_widget_setup
-.PHONY : ament_cmake_python_symlink_flexbe_widget_setup
+ament_cmake_python_copy_flexbe_widget_setup: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_flexbe_widget_setup
+.PHONY : ament_cmake_python_copy_flexbe_widget_setup
 
 # fast build rule for target.
-ament_cmake_python_symlink_flexbe_widget_setup/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_flexbe_widget_setup.dir/build.make CMakeFiles/ament_cmake_python_symlink_flexbe_widget_setup.dir/build
-.PHONY : ament_cmake_python_symlink_flexbe_widget_setup/fast
+ament_cmake_python_copy_flexbe_widget_setup/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_flexbe_widget_setup.dir/build.make CMakeFiles/ament_cmake_python_copy_flexbe_widget_setup.dir/build
+.PHONY : ament_cmake_python_copy_flexbe_widget_setup/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_flexbe_widget_egg
@@ -250,8 +250,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_flexbe_widget_egg"
-	@echo "... ament_cmake_python_symlink_flexbe_widget"
-	@echo "... ament_cmake_python_symlink_flexbe_widget_setup"
+	@echo "... ament_cmake_python_copy_flexbe_widget"
+	@echo "... ament_cmake_python_copy_flexbe_widget_setup"
 	@echo "... flexbe_widget_uninstall"
 	@echo "... uninstall"
 .PHONY : help

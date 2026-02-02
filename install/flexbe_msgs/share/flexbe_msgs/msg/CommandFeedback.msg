@@ -1,1 +1,2 @@
-/home/csrobot/flexbe_ws/src/flexbe_behavior_engine/flexbe_msgs/msg/CommandFeedback.msg
+string command
+string[] args

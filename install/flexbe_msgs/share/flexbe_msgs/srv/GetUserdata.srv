@@ -1,1 +1,6 @@
-/home/csrobot/flexbe_ws/src/flexbe_behavior_engine/flexbe_msgs/srv/GetUserdata.srv
+# specify key to filter userdata, leave empty to get all userdata
+string userdata_key
+---
+bool success
+string message
+flexbe_msgs/UserdataInfo[] userdata

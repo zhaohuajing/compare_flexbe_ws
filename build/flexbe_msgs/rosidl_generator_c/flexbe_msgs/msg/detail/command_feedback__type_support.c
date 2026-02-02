@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "flexbe_msgs/msg/detail/command_feedback__type_support.h"
-#include "flexbe_msgs/msg/detail/command_feedback__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "flexbe_msgs/msg/detail/command_feedback__struct.h"
+#include "flexbe_msgs/msg/detail/command_feedback__type_support.h"
+#include "flexbe_msgs/msg/detail/command_feedback__functions.h"
 
 #ifdef __cplusplus
 extern "C"

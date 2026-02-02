@@ -1,1 +1,0 @@
-/home/csrobot/flexbe_ws/build/tm12_moveit_config/ament_cmake_environment_hooks/local_setup.bash

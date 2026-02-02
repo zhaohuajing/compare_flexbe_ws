@@ -1,0 +1,651 @@
+[0.039s] Invoking command in '/home/csrobot/flexbe_ws/build/gpd_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/flexbe_ws/install/flexbe_webui:/home/csrobot/flexbe_ws/install/flexbe_onboard:/home/csrobot/flexbe_ws/install/flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_mirror:/home/csrobot/flexbe_ws/install/flexbe_input:/home/csrobot/flexbe_ws/install/example_flexbe_states:/home/csrobot/flexbe_ws/install/compare_flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_core:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/csrobot/flexbe_ws/src/gpd_ros -DCMAKE_INSTALL_PREFIX=/home/csrobot/flexbe_ws/install/gpd_ros
+[0.790s] -- The C compiler identification is GNU 13.3.0
+[0.794s] -- The CXX compiler identification is GNU 13.3.0
+[0.795s] -- Detecting C compiler ABI info
+[0.795s] -- Detecting C compiler ABI info - done
+[0.795s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.798s] -- Detecting C compile features
+[0.799s] -- Detecting C compile features - done
+[0.799s] -- Detecting CXX compiler ABI info
+[0.799s] -- Detecting CXX compiler ABI info - done
+[0.799s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.799s] -- Detecting CXX compile features
+[0.799s] -- Detecting CXX compile features - done
+[0.800s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.800s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.800s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.802s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.850s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.851s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.887s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.942s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.974s] -- Found pcl_msgs: 1.0.0 (/opt/ros/jazzy/share/pcl_msgs/cmake)
+[1.000s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[1.063s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.066s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.156s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.176s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.198s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.325s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.325s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.325s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.325s]   cmake_policy command to set the policy and suppress this warning.
+[1.325s] 
+[1.325s]   CMake variable FLANN_ROOT is set to:
+[1.325s] 
+[1.326s]     /usr
+[1.326s] 
+[1.326s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.326s]   .cmake module might still use it.
+[1.326s] Call Stack (most recent call first):
+[1.326s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.326s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.326s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.328s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.328s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.328s]   CMakeLists.txt:16 (find_package)
+[1.328s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.328s] [0m
+[1.328s] -- Found flann version 1.9.2
+[1.610s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.611s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[2.790s] -- Checking for module 'libusb-1.0'
+[2.802s] --   Found libusb-1.0, version 1.0.27
+[2.830s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.831s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.880s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.885s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.899s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[2.919s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[3.358s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.363s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.779s] -- Found Qhull version 8.0.2
+[4.271s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.120s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.121s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.126s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.127s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.128s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.134s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.134s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[5.135s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[5.141s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.142s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.143s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.148s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.149s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.154s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.155s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.157s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.162s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.162s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.169s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.170s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.171s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[5.171s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[5.172s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[5.177s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.178s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.195s] -- Found tf2_eigen: 0.36.14 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[5.485s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[5.490s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.490s] [33mCMake Warning (dev) at CMakeLists.txt:20 (find_package):
+[5.493s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[5.494s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[5.494s]   command to set the policy and suppress this warning.
+[5.494s] 
+[5.494s]   CMake variable PCL_ROOT is set to:
+[5.494s] 
+[5.494s]     /usr
+[5.494s] 
+[5.498s]   For compatibility, CMake is ignoring the variable.
+[5.498s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.498s] [0m
+[5.521s] -- Found OpenCV: /usr (found version "4.6.0") 
+[6.748s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[7.896s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.305s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[9.606s] -- Found PythonExtra: /usr/bin/python3  
+[10.339s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[10.501s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[10.501s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[10.501s]   rosidl_target_interfaces().  i.e:
+[10.501s] 
+[10.501s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[10.501s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[10.502s] 
+[10.502s] Call Stack (most recent call first):
+[10.502s]   CMakeLists.txt:56 (rosidl_target_interfaces)
+[10.502s] 
+[10.502s] [0m
+[10.546s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[10.546s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[10.546s]   rosidl_target_interfaces().  i.e:
+[10.546s] 
+[10.547s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[10.547s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[10.547s] 
+[10.550s] Call Stack (most recent call first):
+[10.552s]   CMakeLists.txt:105 (rosidl_target_interfaces)
+[10.552s] 
+[10.552s] [0m
+[10.559s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[10.559s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[10.559s]   rosidl_target_interfaces().  i.e:
+[10.559s] 
+[10.559s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[10.560s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[10.560s] 
+[10.560s] Call Stack (most recent call first):
+[10.560s]   CMakeLists.txt:118 (rosidl_target_interfaces)
+[10.560s] 
+[10.560s] [0m
+[10.565s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[10.581s] -- Configuring done (10.5s)
+[10.826s] -- Generating done (0.2s)
+[10.861s] -- Build files have been written to: /home/csrobot/flexbe_ws/build/gpd_ros
+[10.894s] Invoked command in '/home/csrobot/flexbe_ws/build/gpd_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/flexbe_ws/install/flexbe_webui:/home/csrobot/flexbe_ws/install/flexbe_onboard:/home/csrobot/flexbe_ws/install/flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_mirror:/home/csrobot/flexbe_ws/install/flexbe_input:/home/csrobot/flexbe_ws/install/example_flexbe_states:/home/csrobot/flexbe_ws/install/compare_flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_core:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/csrobot/flexbe_ws/src/gpd_ros -DCMAKE_INSTALL_PREFIX=/home/csrobot/flexbe_ws/install/gpd_ros
+[10.895s] Invoking command in '/home/csrobot/flexbe_ws/build/gpd_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/flexbe_ws/install/flexbe_webui:/home/csrobot/flexbe_ws/install/flexbe_onboard:/home/csrobot/flexbe_ws/install/flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_mirror:/home/csrobot/flexbe_ws/install/flexbe_input:/home/csrobot/flexbe_ws/install/example_flexbe_states:/home/csrobot/flexbe_ws/install/compare_flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_core:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csrobot/flexbe_ws/build/gpd_ros -- -j8 -l8
+[11.038s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[11.056s] [  1%] [32mBuilding CXX object CMakeFiles/grasp_plotter.dir/src/gpd_ros/grasp_plotter.cpp.o[0m
+[11.089s] [  1%] Built target ament_cmake_python_copy_gpd_ros
+[12.076s] [  1%] Built target gpd_ros__rosidl_generator_type_description
+[18.784s] [  2%] [32m[1mLinking CXX shared library libgrasp_plotter.so[0m
+[19.031s] [  2%] Built target grasp_plotter
+[19.041s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[20.750s] [  4%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/cloud_indexed__description.c.o[0m
+[20.799s] [  5%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/cloud_samples__type_support.c.o[0m
+[20.838s] [  5%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/cloud_sources__description.c.o[0m
+[20.883s] [  6%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/cloud_sources__functions.c.o[0m
+[20.965s] [  7%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/cloud_sources__type_support.c.o[0m
+[20.998s] [  8%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/grasp_config__description.c.o[0m
+[21.057s] [  9%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/grasp_config__functions.c.o[0m
+[21.124s] [ 10%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/grasp_config__type_support.c.o[0m
+[21.163s] [ 11%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/grasp_config_list__description.c.o[0m
+[21.213s] [ 12%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/grasp_config_list__functions.c.o[0m
+[21.267s] [ 13%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/grasp_config_list__type_support.c.o[0m
+[21.301s] [ 13%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/samples_msg__description.c.o[0m
+[21.354s] [ 14%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/samples_msg__functions.c.o[0m
+[21.413s] [ 15%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/samples_msg__type_support.c.o[0m
+[21.448s] [ 16%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/srv/detail/detect_grasps__description.c.o[0m
+[21.528s] [ 17%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/srv/detail/detect_grasps__functions.c.o[0m
+[21.611s] [ 18%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/srv/detail/detect_grasps__type_support.c.o[0m
+[21.652s] [ 19%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/srv/detail/compute_grasp_poses__description.c.o[0m
+[21.727s] [ 20%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/srv/detail/compute_grasp_poses__functions.c.o[0m
+[21.811s] [ 21%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/srv/detail/compute_grasp_poses__type_support.c.o[0m
+[21.853s] [ 22%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/cloud_samples__functions.c.o[0m
+[21.921s] [ 23%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/cloud_samples__description.c.o[0m
+[21.994s] [ 24%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/cloud_indexed__type_support.c.o[0m
+[22.045s] [ 25%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_c.dir/rosidl_generator_c/gpd_ros/msg/detail/cloud_indexed__functions.c.o[0m
+[22.107s] [ 26%] [32m[1mLinking C shared library libgpd_ros__rosidl_generator_c.so[0m
+[22.163s] [ 26%] Built target gpd_ros__rosidl_generator_c
+[22.187s] [ 26%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[23.391s] [ 26%] Built target gpd_ros__cpp
+[23.402s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.052s] [ 28%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpd_ros/msg/cloud_indexed__type_support.cpp.o[0m
+[24.093s] [ 29%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpd_ros/msg/cloud_samples__type_support.cpp.o[0m
+[24.136s] [ 30%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpd_ros/msg/cloud_sources__type_support.cpp.o[0m
+[24.180s] [ 31%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpd_ros/msg/grasp_config__type_support.cpp.o[0m
+[24.217s] [ 32%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpd_ros/msg/grasp_config_list__type_support.cpp.o[0m
+[24.259s] [ 33%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpd_ros/msg/samples_msg__type_support.cpp.o[0m
+[24.299s] [ 34%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpd_ros/srv/detect_grasps__type_support.cpp.o[0m
+[24.344s] [ 34%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpd_ros/srv/compute_grasp_poses__type_support.cpp.o[0m
+[24.390s] [ 35%] [32m[1mLinking CXX shared library libgpd_ros__rosidl_typesupport_c.so[0m
+[24.434s] [ 35%] Built target gpd_ros__rosidl_typesupport_c
+[24.444s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[25.236s] [ 37%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpd_ros/msg/detail/cloud_indexed__type_support.cpp.o[0m
+[25.581s] [ 38%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpd_ros/msg/detail/cloud_sources__type_support.cpp.o[0m
+[25.952s] [ 39%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpd_ros/msg/detail/grasp_config__type_support.cpp.o[0m
+[26.232s] [ 39%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpd_ros/msg/detail/grasp_config_list__type_support.cpp.o[0m
+[26.551s] [ 40%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpd_ros/msg/detail/samples_msg__type_support.cpp.o[0m
+[26.864s] [ 41%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpd_ros/srv/detail/detect_grasps__type_support.cpp.o[0m
+[27.511s] [ 42%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpd_ros/srv/detail/compute_grasp_poses__type_support.cpp.o[0m
+[28.032s] [ 43%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpd_ros/msg/detail/cloud_samples__type_support.cpp.o[0m
+[28.377s] [ 44%] [32m[1mLinking CXX shared library libgpd_ros__rosidl_typesupport_introspection_cpp.so[0m
+[28.465s] [ 44%] Built target gpd_ros__rosidl_typesupport_introspection_cpp
+[28.476s] [ 45%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[29.386s] [ 46%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpd_ros/msg/detail/dds_fastrtps/cloud_indexed__type_support.cpp.o[0m
+[29.838s] [ 47%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpd_ros/msg/detail/dds_fastrtps/grasp_config__type_support.cpp.o[0m
+[30.264s] [ 48%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpd_ros/msg/detail/dds_fastrtps/grasp_config_list__type_support.cpp.o[0m
+[30.713s] [ 48%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpd_ros/msg/detail/dds_fastrtps/samples_msg__type_support.cpp.o[0m
+[31.157s] [ 49%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpd_ros/srv/detail/dds_fastrtps/detect_grasps__type_support.cpp.o[0m
+[31.844s] [ 50%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpd_ros/srv/detail/dds_fastrtps/compute_grasp_poses__type_support.cpp.o[0m
+[32.539s] [ 51%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpd_ros/msg/detail/dds_fastrtps/cloud_sources__type_support.cpp.o[0m
+[33.050s] [ 52%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpd_ros/msg/detail/dds_fastrtps/cloud_samples__type_support.cpp.o[0m
+[33.508s] [ 53%] [32m[1mLinking CXX shared library libgpd_ros__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.593s] [ 53%] Built target gpd_ros__rosidl_typesupport_fastrtps_cpp
+[33.603s] [ 54%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[34.209s] [ 55%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpd_ros/msg/cloud_indexed__type_support.cpp.o[0m
+[34.497s] [ 56%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpd_ros/msg/grasp_config_list__type_support.cpp.o[0m
+[34.779s] [ 57%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpd_ros/msg/samples_msg__type_support.cpp.o[0m
+[35.063s] [ 58%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpd_ros/srv/detect_grasps__type_support.cpp.o[0m
+[35.553s] [ 58%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpd_ros/srv/compute_grasp_poses__type_support.cpp.o[0m
+[35.974s] [ 59%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpd_ros/msg/grasp_config__type_support.cpp.o[0m
+[36.259s] [ 60%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpd_ros/msg/cloud_sources__type_support.cpp.o[0m
+[36.541s] [ 61%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpd_ros/msg/cloud_samples__type_support.cpp.o[0m
+[36.817s] [ 62%] [32m[1mLinking CXX shared library libgpd_ros__rosidl_typesupport_cpp.so[0m
+[36.898s] [ 62%] Built target gpd_ros__rosidl_typesupport_cpp
+[36.908s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[36.908s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[37.730s] [ 65%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpd_ros/msg/detail/cloud_indexed__type_support.c.o[0m
+[37.736s] [ 66%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpd_ros/msg/detail/cloud_samples__type_support.c.o[0m
+[37.774s] [ 66%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpd_ros/msg/detail/samples_msg__type_support.c.o[0m
+[37.789s] [ 67%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpd_ros/srv/detail/detect_grasps__type_support.c.o[0m
+[37.826s] [ 68%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpd_ros/srv/detail/compute_grasp_poses__type_support.c.o[0m
+[37.849s] [ 69%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpd_ros/msg/detail/grasp_config_list__type_support.c.o[0m
+[37.919s] [ 70%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpd_ros/msg/detail/cloud_sources__type_support.c.o[0m
+[37.920s] [ 71%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpd_ros/msg/detail/grasp_config__type_support.c.o[0m
+[37.957s] [ 72%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_indexed__type_support_c.cpp.o[0m
+[37.970s] [ 73%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_samples__type_support_c.cpp.o[0m
+[37.972s] [ 74%] [32m[1mLinking C shared library libgpd_ros__rosidl_typesupport_introspection_c.so[0m
+[38.062s] [ 74%] Built target gpd_ros__rosidl_typesupport_introspection_c
+[38.518s] [ 74%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/srv/detail/detect_grasps__type_support_c.cpp.o[0m
+[38.594s] [ 75%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/srv/detail/compute_grasp_poses__type_support_c.cpp.o[0m
+[38.732s] running egg_info
+[38.732s] creating gpd_ros.egg-info
+[38.831s] writing gpd_ros.egg-info/PKG-INFO
+[38.839s] writing dependency_links to gpd_ros.egg-info/dependency_links.txt
+[38.839s] writing top-level names to gpd_ros.egg-info/top_level.txt
+[38.839s] writing manifest file 'gpd_ros.egg-info/SOURCES.txt'
+[39.051s] reading manifest file 'gpd_ros.egg-info/SOURCES.txt'
+[39.051s] writing manifest file 'gpd_ros.egg-info/SOURCES.txt'
+[39.100s] [ 75%] Built target ament_cmake_python_build_gpd_ros_egg
+[39.202s] [ 76%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/samples_msg__type_support_c.cpp.o[0m
+[39.596s] [ 77%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/grasp_config_list__type_support_c.cpp.o[0m
+[40.011s] [ 78%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/grasp_config__type_support_c.cpp.o[0m
+[40.605s] [ 79%] [32mBuilding CXX object CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_sources__type_support_c.cpp.o[0m
+[41.401s] [ 80%] [32m[1mLinking CXX shared library libgpd_ros__rosidl_typesupport_fastrtps_c.so[0m
+[41.528s] [ 80%] Built target gpd_ros__rosidl_typesupport_fastrtps_c
+[41.586s] [ 80%] Built target gpd_ros
+[41.638s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[44.756s] [ 81%] Built target gpd_ros__py
+[44.807s] [ 82%] [32mBuilding CXX object CMakeFiles/grasp_pose_server.dir/src/gpd_ros/grasp_pose_server.cpp.o[0m
+[49.871s] [01m[K/home/csrobot/flexbe_ws/src/gpd_ros/src/gpd_ros/grasp_pose_server.cpp:[m[K In constructor ‘[01m[KGraspPoseServer::[01;32m[KGraspPoseServer[m[K()[m[K’:
+[49.871s] [01m[K/home/csrobot/flexbe_ws/src/gpd_ros/src/gpd_ros/grasp_pose_server.cpp:25:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgripper_offset_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[49.871s]    25 |     double [01;35m[Kgripper_offset_[m[K = this->declare_parameter<double>("gripper_offset", 0.0);
+[49.871s]       |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[49.872s] [01m[K/home/csrobot/flexbe_ws/src/gpd_ros/src/gpd_ros/grasp_pose_server.cpp:26:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kapproach_dist_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[49.872s]    26 |     double [01;35m[Kapproach_dist_[m[K = this->declare_parameter<double>("approach_dist", 0.0);
+[49.872s]       |            [01;35m[K^~~~~~~~~~~~~~[m[K
+[49.872s] [01m[K/home/csrobot/flexbe_ws/src/gpd_ros/src/gpd_ros/grasp_pose_server.cpp:28:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgrasp_rot_x_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[49.872s]    28 |     double [01;35m[Kgrasp_rot_x_[m[K = this->declare_parameter<double>("grasp_rot_x", 0.0);
+[49.872s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[49.872s] [01m[K/home/csrobot/flexbe_ws/src/gpd_ros/src/gpd_ros/grasp_pose_server.cpp:29:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgrasp_rot_y_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[49.872s]    29 |     double [01;35m[Kgrasp_rot_y_[m[K = this->declare_parameter<double>("grasp_rot_y", 0.0);
+[49.872s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[49.872s] [01m[K/home/csrobot/flexbe_ws/src/gpd_ros/src/gpd_ros/grasp_pose_server.cpp:30:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgrasp_rot_z_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[49.872s]    30 |     double [01;35m[Kgrasp_rot_z_[m[K = this->declare_parameter<double>("grasp_rot_z", 0.0);
+[49.872s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[49.872s] [01m[K/home/csrobot/flexbe_ws/src/gpd_ros/src/gpd_ros/grasp_pose_server.cpp:31:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgrasp_rot_w_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[49.872s]    31 |     double [01;35m[Kgrasp_rot_w_[m[K = this->declare_parameter<double>("grasp_rot_w", 1.0);
+[49.873s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[49.908s] [01m[K/home/csrobot/flexbe_ws/src/gpd_ros/src/gpd_ros/grasp_pose_server.cpp:[m[K In member function ‘[01m[Kvoid GraspPoseServer::[01;32m[Khandle_request[m[K(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<gpd_ros::srv::ComputeGraspPoses_Request_<std::allocator<void> > >, std::shared_ptr<gpd_ros::srv::ComputeGraspPoses_Response_<std::allocator<void> > >)[m[K’:
+[49.908s] [01m[K/home/csrobot/flexbe_ws/src/gpd_ros/src/gpd_ros/grasp_pose_server.cpp:61:29:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KT_target_source[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[49.908s]    61 |     const Eigen::Isometry3d [01;35m[KT_target_source[m[K = tf2::transformToEigen(T_target_source_msg.transform);
+[49.908s]       |                             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[54.011s] [ 83%] [32m[1mLinking CXX executable grasp_pose_server[0m
+[54.217s] [ 83%] Built target grasp_pose_server
+[54.235s] [ 83%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_py.dir/rosidl_generator_py/gpd_ros/msg/_cloud_indexed_s.c.o[0m
+[54.345s] [ 84%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_py.dir/rosidl_generator_py/gpd_ros/srv/_detect_grasps_s.c.o[0m
+[54.471s] [ 85%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_py.dir/rosidl_generator_py/gpd_ros/srv/_compute_grasp_poses_s.c.o[0m
+[54.606s] [ 86%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_py.dir/rosidl_generator_py/gpd_ros/msg/_samples_msg_s.c.o[0m
+[54.712s] [ 87%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_py.dir/rosidl_generator_py/gpd_ros/msg/_grasp_config_list_s.c.o[0m
+[54.820s] [ 88%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_py.dir/rosidl_generator_py/gpd_ros/msg/_grasp_config_s.c.o[0m
+[54.929s] [ 89%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_py.dir/rosidl_generator_py/gpd_ros/msg/_cloud_sources_s.c.o[0m
+[55.044s] [ 90%] [32mBuilding C object CMakeFiles/gpd_ros__rosidl_generator_py.dir/rosidl_generator_py/gpd_ros/msg/_cloud_samples_s.c.o[0m
+[55.153s] [ 91%] [32m[1mLinking C shared library libgpd_ros__rosidl_generator_py.so[0m
+[55.197s] [ 91%] Built target gpd_ros__rosidl_generator_py
+[55.215s] [ 92%] [32mBuilding CXX object CMakeFiles/grasp_messages.dir/src/gpd_ros/grasp_messages.cpp.o[0m
+[59.533s] [ 93%] [32m[1mLinking CXX shared library libgrasp_messages.so[0m
+[59.777s] [ 93%] Built target grasp_messages
+[59.794s] [ 94%] [32mBuilding C object CMakeFiles/gpd_ros_s__rosidl_typesupport_c.dir/rosidl_generator_py/gpd_ros/_gpd_ros_s.ep.rosidl_typesupport_c.c.o[0m
+[59.916s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/gpd_ros/gpd_ros_s__rosidl_typesupport_c.so[0m
+[59.943s] [ 95%] Built target gpd_ros_s__rosidl_typesupport_c
+[59.963s] [ 96%] [32mBuilding CXX object CMakeFiles/grasp_detection_server.dir/src/gpd_ros/grasp_detection_server.cpp.o[0m
+[72.221s] [ 97%] [32m[1mLinking CXX executable grasp_detection_server[0m
+[73.702s] [ 97%] Built target grasp_detection_server
+[73.722s] [ 98%] [32mBuilding C object CMakeFiles/gpd_ros_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/gpd_ros/_gpd_ros_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[73.722s] [ 98%] [32mBuilding C object CMakeFiles/gpd_ros_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/gpd_ros/_gpd_ros_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[73.861s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/gpd_ros/gpd_ros_s__rosidl_typesupport_fastrtps_c.so[0m
+[73.861s] [100%] [32m[1mLinking C shared module rosidl_generator_py/gpd_ros/gpd_ros_s__rosidl_typesupport_introspection_c.so[0m
+[73.894s] [100%] Built target gpd_ros_s__rosidl_typesupport_introspection_c
+[73.895s] [100%] Built target gpd_ros_s__rosidl_typesupport_fastrtps_c
+[73.908s] Invoked command in '/home/csrobot/flexbe_ws/build/gpd_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/flexbe_ws/install/flexbe_webui:/home/csrobot/flexbe_ws/install/flexbe_onboard:/home/csrobot/flexbe_ws/install/flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_mirror:/home/csrobot/flexbe_ws/install/flexbe_input:/home/csrobot/flexbe_ws/install/example_flexbe_states:/home/csrobot/flexbe_ws/install/compare_flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_core:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csrobot/flexbe_ws/build/gpd_ros -- -j8 -l8
+[73.910s] Invoking command in '/home/csrobot/flexbe_ws/build/gpd_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/flexbe_ws/install/flexbe_webui:/home/csrobot/flexbe_ws/install/flexbe_onboard:/home/csrobot/flexbe_ws/install/flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_mirror:/home/csrobot/flexbe_ws/install/flexbe_input:/home/csrobot/flexbe_ws/install/example_flexbe_states:/home/csrobot/flexbe_ws/install/compare_flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_core:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csrobot/flexbe_ws/build/gpd_ros
+[73.918s] -- Install configuration: ""
+[73.918s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/ament_index/resource_index/rosidl_interfaces/gpd_ros
+[73.918s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/CloudIndexed.json
+[73.918s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/CloudSamples.json
+[73.918s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/CloudSources.json
+[73.918s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/GraspConfig.json
+[73.918s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/GraspConfigList.json
+[73.919s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/SamplesMsg.json
+[73.919s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/srv/DetectGrasps.json
+[73.919s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/srv/ComputeGraspPoses.json
+[73.919s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros
+[73.919s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg
+[73.919s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/grasp_config.h
+[73.919s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/rosidl_generator_c__visibility_control.h
+[73.919s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/samples_msg.h
+[73.919s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/cloud_indexed.h
+[73.920s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/grasp_config_list.h
+[73.920s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/cloud_samples.h
+[73.920s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail
+[73.920s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__description.c
+[73.920s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__type_support.c
+[73.920s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__type_support.c
+[73.920s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__functions.c
+[73.920s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__functions.h
+[73.920s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__functions.h
+[73.920s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__functions.h
+[73.921s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__functions.c
+[73.921s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__functions.h
+[73.921s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__struct.h
+[73.921s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__type_support.h
+[73.921s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__type_support.c
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__struct.h
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__type_support.c
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__type_support.h
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__struct.h
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__struct.h
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__type_support.h
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__type_support.c
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__functions.h
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__type_support.c
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__description.c
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__functions.c
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__struct.h
+[73.922s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__description.c
+[73.923s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__description.c
+[73.923s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__functions.c
+[73.923s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__type_support.h
+[73.923s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__description.c
+[73.923s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__functions.c
+[73.923s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__type_support.h
+[73.924s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__functions.h
+[73.924s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__functions.c
+[73.924s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__type_support.h
+[73.924s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__struct.h
+[73.924s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__description.c
+[73.925s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/cloud_sources.h
+[73.925s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv
+[73.925s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detect_grasps.h
+[73.925s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/compute_grasp_poses.h
+[73.925s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail
+[73.925s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__functions.h
+[73.926s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__type_support.c
+[73.926s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__functions.h
+[73.926s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__functions.c
+[73.926s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__functions.c
+[73.927s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__type_support.h
+[73.927s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__struct.h
+[73.927s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__type_support.c
+[73.927s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__type_support.h
+[73.928s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__struct.h
+[73.928s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__description.c
+[73.928s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__description.c
+[73.928s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/environment/library_path.sh
+[73.928s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/environment/library_path.dsv
+[73.928s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_generator_c.so
+[73.928s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_generator_c.so" to ""
+[73.928s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros
+[73.929s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg
+[73.929s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[73.929s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail
+[73.929s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__rosidl_typesupport_fastrtps_c.h
+[73.929s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__rosidl_typesupport_fastrtps_c.h
+[73.929s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__rosidl_typesupport_fastrtps_c.h
+[73.929s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__rosidl_typesupport_fastrtps_c.h
+[73.929s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__rosidl_typesupport_fastrtps_c.h
+[73.929s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__rosidl_typesupport_fastrtps_c.h
+[73.929s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv
+[73.929s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail
+[73.929s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__rosidl_typesupport_fastrtps_c.h
+[73.929s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__rosidl_typesupport_fastrtps_c.h
+[73.929s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_fastrtps_c.so
+[73.930s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_fastrtps_c.so" to ""
+[73.930s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros
+[73.930s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg
+[73.930s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[73.930s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail
+[73.930s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__rosidl_typesupport_introspection_c.h
+[73.930s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__type_support.c
+[73.930s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__type_support.c
+[73.930s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__type_support.c
+[73.930s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__rosidl_typesupport_introspection_c.h
+[73.930s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__type_support.c
+[73.930s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__rosidl_typesupport_introspection_c.h
+[73.930s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__type_support.c
+[73.930s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__type_support.c
+[73.930s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__rosidl_typesupport_introspection_c.h
+[73.931s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__rosidl_typesupport_introspection_c.h
+[73.931s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__rosidl_typesupport_introspection_c.h
+[73.931s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv
+[73.931s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail
+[73.931s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__type_support.c
+[73.931s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__rosidl_typesupport_introspection_c.h
+[73.931s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__type_support.c
+[73.931s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__rosidl_typesupport_introspection_c.h
+[73.931s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_introspection_c.so
+[73.931s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_introspection_c.so" to ""
+[73.932s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_c.so
+[73.932s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_c.so" to ""
+[73.932s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros
+[73.932s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg
+[73.932s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/cloud_sources.hpp
+[73.932s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/grasp_config.hpp
+[73.932s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/cloud_indexed.hpp
+[73.932s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/cloud_samples.hpp
+[73.933s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/rosidl_generator_cpp__visibility_control.hpp
+[73.933s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/samples_msg.hpp
+[73.933s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail
+[73.933s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__builder.hpp
+[73.933s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__builder.hpp
+[73.933s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__struct.hpp
+[73.933s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__traits.hpp
+[73.934s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__type_support.hpp
+[73.934s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__type_support.hpp
+[73.934s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__type_support.hpp
+[73.934s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__traits.hpp
+[73.934s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__traits.hpp
+[73.934s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__type_support.hpp
+[73.934s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__struct.hpp
+[73.934s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__struct.hpp
+[73.934s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__type_support.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__struct.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__builder.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__builder.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__traits.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__traits.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__builder.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__struct.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__builder.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__traits.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__struct.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__type_support.hpp
+[73.935s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/grasp_config_list.hpp
+[73.936s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv
+[73.936s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/compute_grasp_poses.hpp
+[73.936s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detect_grasps.hpp
+[73.936s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail
+[73.936s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__builder.hpp
+[73.937s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__struct.hpp
+[73.937s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__struct.hpp
+[73.937s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__type_support.hpp
+[73.937s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__builder.hpp
+[73.937s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__type_support.hpp
+[73.937s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__traits.hpp
+[73.937s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__traits.hpp
+[73.937s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros
+[73.937s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg
+[73.938s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[73.938s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail
+[73.938s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__rosidl_typesupport_fastrtps_cpp.hpp
+[73.938s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[73.939s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__rosidl_typesupport_fastrtps_cpp.hpp
+[73.939s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__rosidl_typesupport_fastrtps_cpp.hpp
+[73.939s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__rosidl_typesupport_fastrtps_cpp.hpp
+[73.939s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/dds_fastrtps
+[73.939s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__rosidl_typesupport_fastrtps_cpp.hpp
+[73.940s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv
+[73.940s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail
+[73.940s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[73.940s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__rosidl_typesupport_fastrtps_cpp.hpp
+[73.940s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/dds_fastrtps
+[73.940s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_fastrtps_cpp.so
+[73.941s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_fastrtps_cpp.so" to ""
+[73.941s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros
+[73.941s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg
+[73.941s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail
+[73.941s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__rosidl_typesupport_introspection_cpp.hpp
+[73.941s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__type_support.cpp
+[73.941s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__rosidl_typesupport_introspection_cpp.hpp
+[73.942s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__type_support.cpp
+[73.942s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__type_support.cpp
+[73.942s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__type_support.cpp
+[73.942s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config__rosidl_typesupport_introspection_cpp.hpp
+[73.942s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/grasp_config_list__rosidl_typesupport_introspection_cpp.hpp
+[73.942s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_sources__rosidl_typesupport_introspection_cpp.hpp
+[73.942s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_samples__type_support.cpp
+[73.942s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/samples_msg__type_support.cpp
+[73.943s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/msg/detail/cloud_indexed__rosidl_typesupport_introspection_cpp.hpp
+[73.943s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv
+[73.943s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail
+[73.943s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__rosidl_typesupport_introspection_cpp.hpp
+[73.943s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__type_support.cpp
+[73.943s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/detect_grasps__rosidl_typesupport_introspection_cpp.hpp
+[73.943s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/gpd_ros/srv/detail/compute_grasp_poses__type_support.cpp
+[73.943s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_introspection_cpp.so
+[73.943s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_introspection_cpp.so" to ""
+[73.944s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_cpp.so
+[73.944s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_typesupport_cpp.so" to ""
+[73.944s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/environment/pythonpath.sh
+[73.944s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/environment/pythonpath.dsv
+[73.944s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros-0.0.1-py3.12.egg-info
+[73.944s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros-0.0.1-py3.12.egg-info/dependency_links.txt
+[73.945s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros-0.0.1-py3.12.egg-info/top_level.txt
+[73.945s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros-0.0.1-py3.12.egg-info/SOURCES.txt
+[73.945s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros-0.0.1-py3.12.egg-info/PKG-INFO
+[73.945s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros
+[73.945s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg
+[73.945s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_samples_msg_s.c
+[73.945s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_cloud_samples_s.c
+[73.946s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_grasp_config.py
+[73.946s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_grasp_config_list_s.c
+[73.946s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_cloud_sources_s.c
+[73.946s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_cloud_sources.py
+[73.946s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/__init__.py
+[73.946s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_grasp_config_s.c
+[73.946s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_cloud_indexed.py
+[73.946s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_cloud_samples.py
+[73.946s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_cloud_indexed_s.c
+[73.947s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_grasp_config_list.py
+[73.947s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_samples_msg.py
+[73.947s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/__init__.py
+[73.947s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/_gpd_ros_s.ep.rosidl_typesupport_fastrtps_c.c
+[73.947s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/srv
+[73.947s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/srv/_compute_grasp_poses_s.c
+[73.947s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/srv/_compute_grasp_poses.py
+[73.948s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/srv/__init__.py
+[73.948s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/srv/_detect_grasps_s.c
+[73.948s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/srv/_detect_grasps.py
+[73.948s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/gpd_ros_s__rosidl_typesupport_fastrtps_c.so
+[73.948s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/gpd_ros_s__rosidl_typesupport_introspection_c.so
+[73.948s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/_gpd_ros_s.ep.rosidl_typesupport_introspection_c.c
+[73.948s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/gpd_ros_s__rosidl_typesupport_c.so
+[73.948s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/_gpd_ros_s.ep.rosidl_typesupport_c.c
+[74.009s] Listing '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros'...
+[74.009s] Compiling '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/__init__.py'...
+[74.009s] Listing '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg'...
+[74.009s] Compiling '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/__init__.py'...
+[74.009s] Compiling '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_cloud_indexed.py'...
+[74.009s] Compiling '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_cloud_samples.py'...
+[74.009s] Compiling '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_cloud_sources.py'...
+[74.009s] Compiling '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_grasp_config.py'...
+[74.009s] Compiling '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_grasp_config_list.py'...
+[74.010s] Compiling '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/msg/_samples_msg.py'...
+[74.011s] Listing '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/srv'...
+[74.011s] Compiling '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/srv/__init__.py'...
+[74.011s] Compiling '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/srv/_compute_grasp_poses.py'...
+[74.011s] Compiling '/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/srv/_detect_grasps.py'...
+[74.019s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/gpd_ros_s__rosidl_typesupport_fastrtps_c.so
+[74.019s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/gpd_ros_s__rosidl_typesupport_fastrtps_c.so" to ""
+[74.019s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/gpd_ros_s__rosidl_typesupport_introspection_c.so
+[74.020s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/gpd_ros_s__rosidl_typesupport_introspection_c.so" to ""
+[74.020s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/gpd_ros_s__rosidl_typesupport_c.so
+[74.020s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages/gpd_ros/gpd_ros_s__rosidl_typesupport_c.so" to ""
+[74.020s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_generator_py.so
+[74.026s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/libgpd_ros__rosidl_generator_py.so" to ""
+[74.026s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/CloudIndexed.idl
+[74.026s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/CloudSamples.idl
+[74.026s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/CloudSources.idl
+[74.026s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/GraspConfig.idl
+[74.027s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/GraspConfigList.idl
+[74.027s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/SamplesMsg.idl
+[74.027s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/srv/DetectGrasps.idl
+[74.027s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/srv/ComputeGraspPoses.idl
+[74.027s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/CloudIndexed.msg
+[74.028s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/CloudSamples.msg
+[74.028s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/CloudSources.msg
+[74.028s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/GraspConfig.msg
+[74.033s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/GraspConfigList.msg
+[74.033s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/msg/SamplesMsg.msg
+[74.033s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/srv/DetectGrasps.srv
+[74.033s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/srv/ComputeGraspPoses.srv
+[74.034s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/libgrasp_messages.so
+[74.034s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/libgrasp_messages.so" to ""
+[74.034s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/libgrasp_plotter.so
+[74.034s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/libgrasp_plotter.so" to ""
+[74.034s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/gpd_ros/grasp_detection_server
+[74.035s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/gpd_ros/grasp_detection_server" to ""
+[74.039s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/lib/gpd_ros/grasp_pose_server
+[74.039s] -- Set non-toolchain portion of runtime path of "/home/csrobot/flexbe_ws/install/gpd_ros/lib/gpd_ros/grasp_pose_server" to ""
+[74.039s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include
+[74.039s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros
+[74.039s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/grasp_plotter.h
+[74.039s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/grasp_messages.h
+[74.039s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/include/gpd_ros/grasp_detection_server.h
+[74.039s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/ament_index/resource_index/package_run_dependencies/gpd_ros
+[74.043s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/ament_index/resource_index/parent_prefix_path/gpd_ros
+[74.043s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/environment/ament_prefix_path.sh
+[74.043s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/environment/ament_prefix_path.dsv
+[74.043s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/environment/path.sh
+[74.043s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/environment/path.dsv
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/local_setup.bash
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/local_setup.sh
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/local_setup.zsh
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/local_setup.dsv
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/package.dsv
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/ament_index/resource_index/packages/gpd_ros
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/export_gpd_ros__rosidl_generator_cExport.cmake
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/export_gpd_ros__rosidl_generator_cExport-noconfig.cmake
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/export_gpd_ros__rosidl_typesupport_fastrtps_cExport.cmake
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/export_gpd_ros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/gpd_ros__rosidl_typesupport_introspection_cExport.cmake
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/gpd_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[74.044s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/gpd_ros__rosidl_typesupport_cExport.cmake
+[74.045s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/gpd_ros__rosidl_typesupport_cExport-noconfig.cmake
+[74.045s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/export_gpd_ros__rosidl_generator_cppExport.cmake
+[74.045s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/export_gpd_ros__rosidl_typesupport_fastrtps_cppExport.cmake
+[74.045s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/export_gpd_ros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[74.045s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/gpd_ros__rosidl_typesupport_introspection_cppExport.cmake
+[74.045s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/gpd_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[74.045s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/gpd_ros__rosidl_typesupport_cppExport.cmake
+[74.045s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/gpd_ros__rosidl_typesupport_cppExport-noconfig.cmake
+[74.049s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/export_gpd_ros__rosidl_generator_pyExport.cmake
+[74.049s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/export_gpd_ros__rosidl_generator_pyExport-noconfig.cmake
+[74.049s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/export_gpd_rosExport.cmake
+[74.050s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/export_gpd_rosExport-noconfig.cmake
+[74.051s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/rosidl_cmake-extras.cmake
+[74.051s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[74.051s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[74.053s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[74.054s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/ament_cmake_export_targets-extras.cmake
+[74.054s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[74.054s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[74.054s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/gpd_rosConfig.cmake
+[74.054s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/cmake/gpd_rosConfig-version.cmake
+[74.054s] -- Installing: /home/csrobot/flexbe_ws/install/gpd_ros/share/gpd_ros/package.xml
+[74.055s] Invoked command in '/home/csrobot/flexbe_ws/build/gpd_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/flexbe_ws/install/flexbe_webui:/home/csrobot/flexbe_ws/install/flexbe_onboard:/home/csrobot/flexbe_ws/install/flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_mirror:/home/csrobot/flexbe_ws/install/flexbe_input:/home/csrobot/flexbe_ws/install/example_flexbe_states:/home/csrobot/flexbe_ws/install/compare_flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_core:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csrobot/flexbe_ws/build/gpd_ros

@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "flexbe_msgs/msg/detail/behavior_request__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "flexbe_msgs/msg/detail/behavior_request__type_support.h"
+#include "flexbe_msgs/msg/detail/behavior_request__functions.h"
 #include "flexbe_msgs/msg/detail/behavior_request__struct.h"
 
 #ifdef __cplusplus

@@ -1,0 +1,278 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ae8469a53929a8880b11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				},
+				{
+					"build" : "gpd_ros__py",
+					"jsonFile" : "directory-gpd_ros__py-ae21e64321e4a6e57e00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/csrobot/flexbe_ws/build/gpd_ros/gpd_ros__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "gpd_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gpd_ros_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gpd_ros_egg-8f8ca328be75e8371118.json",
+					"name" : "ament_cmake_python_build_gpd_ros_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_gpd_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_gpd_ros-19e9e0ae9c8efddf004e.json",
+					"name" : "ament_cmake_python_copy_gpd_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros-ffc2f91baafce8168a59.json",
+					"name" : "gpd_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros__cpp-009e08205d0631d4585e.json",
+					"name" : "gpd_ros__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gpd_ros__py::@bbf2eb8a4bf4c34bdca9",
+					"jsonFile" : "target-gpd_ros__py-cd5b25469eb7f9f00b2b.json",
+					"name" : "gpd_ros__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros__rosidl_generator_c-3a1aef86862e497aed0a.json",
+					"name" : "gpd_ros__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros__rosidl_generator_py-0174caa60fc22c57b885.json",
+					"name" : "gpd_ros__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros__rosidl_generator_type_description-9d2886573c88563ef290.json",
+					"name" : "gpd_ros__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros__rosidl_typesupport_c-8fd71e5fede50aa86494.json",
+					"name" : "gpd_ros__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros__rosidl_typesupport_cpp-001521722b77af74dd4b.json",
+					"name" : "gpd_ros__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros__rosidl_typesupport_fastrtps_c-1d02b67e5ee6e8283599.json",
+					"name" : "gpd_ros__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros__rosidl_typesupport_fastrtps_cpp-414aa1f1acad7a9513b7.json",
+					"name" : "gpd_ros__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros__rosidl_typesupport_introspection_c-571c869aaec614307856.json",
+					"name" : "gpd_ros__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros__rosidl_typesupport_introspection_cpp-f8d5f6ed927b042e4f33.json",
+					"name" : "gpd_ros__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros_s__rosidl_typesupport_c-82618ba4a892a53133f1.json",
+					"name" : "gpd_ros_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros_s__rosidl_typesupport_fastrtps_c-b7ee23cc1e76ee4f819b.json",
+					"name" : "gpd_ros_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros_s__rosidl_typesupport_introspection_c-db1d8feea6d992dfc273.json",
+					"name" : "gpd_ros_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpd_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpd_ros_uninstall-d1349a0178c69c1e983d.json",
+					"name" : "gpd_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_detection_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_detection_server-647419c5483965b2ddc3.json",
+					"name" : "grasp_detection_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_messages::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_messages-5db0fd4fdf71e128f370.json",
+					"name" : "grasp_messages",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_plotter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_plotter-203b17fcd229571721e2.json",
+					"name" : "grasp_plotter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_pose_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_pose_server-b7da9c3b1ad3d9e06147.json",
+					"name" : "grasp_pose_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fb95d524b3e77808105e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/csrobot/flexbe_ws/build/gpd_ros",
+		"source" : "/home/csrobot/flexbe_ws/src/gpd_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

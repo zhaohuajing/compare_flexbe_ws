@@ -1,0 +1,282 @@
+[0.027s] Invoking command in '/home/csrobot/flexbe_ws/build/gpd': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/csrobot/flexbe_ws/gpd -DCMAKE_INSTALL_PREFIX=/home/csrobot/flexbe_ws/install/gpd
+[0.766s] -- The C compiler identification is GNU 13.3.0
+[0.766s] -- The CXX compiler identification is GNU 13.3.0
+[0.766s] -- Detecting C compiler ABI info
+[0.766s] -- Detecting C compiler ABI info - done
+[0.766s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.766s] -- Detecting C compile features
+[0.767s] -- Detecting C compile features - done
+[0.767s] -- Detecting CXX compiler ABI info
+[0.767s] -- Detecting CXX compiler ABI info - done
+[0.767s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.767s] -- Detecting CXX compile features
+[0.767s] -- Detecting CXX compile features - done
+[0.767s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[0.767s] -- Found flann version 1.9.2
+[0.769s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.770s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.770s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.770s]   cmake_policy command to set the policy and suppress this warning.
+[0.770s] 
+[0.770s]   CMake variable FLANN_ROOT is set to:
+[0.770s] 
+[0.770s]     /usr
+[0.770s] 
+[0.770s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.770s]   .cmake module might still use it.
+[0.770s] Call Stack (most recent call first):
+[0.770s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.770s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.770s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.770s]   CMakeLists.txt:10 (find_package)
+[0.770s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.771s] [0m
+[0.785s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.786s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[0.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.909s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.910s] -- Found Threads: TRUE  
+[0.912s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.927s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.093s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.093s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.096s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.112s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[1.135s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[1.147s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.310s] -- Found X11: /usr/include   
+[1.310s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.396s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.396s] -- Looking for gethostbyname
+[1.484s] -- Looking for gethostbyname - found
+[1.484s] -- Looking for connect
+[1.561s] -- Looking for connect - found
+[1.561s] -- Looking for remove
+[1.650s] -- Looking for remove - found
+[1.650s] -- Looking for shmat
+[1.737s] -- Looking for shmat - found
+[1.737s] -- Looking for IceConnectionNumber in ICE
+[1.807s] -- Looking for IceConnectionNumber in ICE - found
+[1.940s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[1.942s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.944s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[1.946s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[1.960s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.976s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+[1.980s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+[1.985s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.050s] -- Checking for module 'libusb-1.0'
+[2.065s] --   Found libusb-1.0, version 1.0.27
+[2.089s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.090s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.090s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.142s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.142s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.146s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.146s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.593s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.598s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.000s] -- Found Qhull version 8.0.2
+[3.405s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.797s] -- looking for PCL_COMMON
+[3.798s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.799s] -- looking for PCL_KDTREE
+[3.799s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.800s] -- looking for PCL_OCTREE
+[3.800s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.801s] -- looking for PCL_SEARCH
+[3.801s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.802s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.803s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.803s] -- looking for PCL_FILTERS
+[3.804s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.804s] -- looking for PCL_2D
+[3.804s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[3.804s] -- looking for PCL_GEOMETRY
+[3.804s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[3.804s] -- looking for PCL_IO
+[3.805s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.806s] -- looking for PCL_FEATURES
+[3.806s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.807s] -- looking for PCL_ML
+[3.808s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.808s] -- looking for PCL_SEGMENTATION
+[3.809s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.809s] -- looking for PCL_VISUALIZATION
+[3.810s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.810s] -- looking for PCL_SURFACE
+[3.811s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.811s] -- looking for PCL_REGISTRATION
+[3.812s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.812s] -- looking for PCL_KEYPOINTS
+[3.813s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.813s] -- looking for PCL_TRACKING
+[3.814s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.814s] -- looking for PCL_RECOGNITION
+[3.815s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.816s] -- looking for PCL_STEREO
+[3.817s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.817s] -- looking for PCL_APPS
+[3.818s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.818s] -- looking for PCL_IN_HAND_SCANNER
+[3.818s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[3.818s] -- looking for PCL_MODELER
+[3.819s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[3.819s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.819s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[3.819s] -- looking for PCL_OUTOFCORE
+[3.820s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.820s] -- looking for PCL_PEOPLE
+[3.821s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.822s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.9") 
+[3.830s] -- Found OpenCV: /usr (found version "4.6.0") 
+[3.833s] -- Configuring done (3.8s)
+[3.976s] -- Generating done (0.1s)
+[3.993s] -- Build files have been written to: /home/csrobot/flexbe_ws/build/gpd
+[4.007s] Invoked command in '/home/csrobot/flexbe_ws/build/gpd' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/csrobot/flexbe_ws/gpd -DCMAKE_INSTALL_PREFIX=/home/csrobot/flexbe_ws/install/gpd
+[4.008s] Invoking command in '/home/csrobot/flexbe_ws/build/gpd': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csrobot/flexbe_ws/build/gpd -- -j8 -l8
+[4.066s] [  1%] [32mBuilding CXX object CMakeFiles/gpd_dense_layer.dir/src/gpd/net/dense_layer.cpp.o[0m
+[4.066s] [  3%] [32mBuilding CXX object CMakeFiles/gpd_eigen_utils.dir/src/gpd/util/eigen_utils.cpp.o[0m
+[4.066s] [  4%] [32mBuilding CXX object CMakeFiles/gpd_conv_layer.dir/src/gpd/net/conv_layer.cpp.o[0m
+[4.066s] [  6%] [32mBuilding CXX object CMakeFiles/gpd_finger_hand.dir/src/gpd/candidate/finger_hand.cpp.o[0m
+[4.069s] [  7%] [32mBuilding CXX object CMakeFiles/gpd_local_frame.dir/src/gpd/candidate/local_frame.cpp.o[0m
+[4.075s] [  9%] [32mBuilding CXX object CMakeFiles/gpd_config_file.dir/src/gpd/util/config_file.cpp.o[0m
+[4.887s] [ 10%] [32m[1mLinking CXX static library libgpd_config_file.a[0m
+[5.053s] [ 10%] Built target gpd_config_file
+[5.097s] [ 12%] [32mBuilding CXX object CMakeFiles/gpd_hand_geometry.dir/src/gpd/candidate/hand_geometry.cpp.o[0m
+[5.099s] [ 13%] [32mBuilding CXX object CMakeFiles/gpd_image_geometry.dir/src/gpd/descriptor/image_geometry.cpp.o[0m
+[5.485s] [ 15%] [32m[1mLinking CXX static library libgpd_image_geometry.a[0m
+[5.559s] [ 15%] Built target gpd_image_geometry
+[5.766s] [ 16%] [32m[1mLinking CXX static library libgpd_hand_geometry.a[0m
+[5.832s] [ 18%] [32m[1mLinking CXX static library libgpd_eigen_utils.a[0m
+[5.886s] [ 18%] Built target gpd_hand_geometry
+[5.967s] [ 18%] Built target gpd_eigen_utils
+[6.018s] [ 20%] [32mBuilding CXX object CMakeFiles/gpd_cloud.dir/src/gpd/util/cloud.cpp.o[0m
+[6.018s] [ 21%] [32mBuilding CXX object CMakeFiles/gpd_point_list.dir/src/gpd/util/point_list.cpp.o[0m
+[6.372s] [ 23%] [32m[1mLinking CXX static library libgpd_finger_hand.a[0m
+[6.442s] [ 24%] [32m[1mLinking CXX static library libgpd_dense_layer.a[0m
+[6.533s] [ 24%] Built target gpd_finger_hand
+[6.573s] [ 24%] Built target gpd_dense_layer
+[6.574s] [ 26%] [32mBuilding CXX object CMakeFiles/gpd_hand.dir/src/gpd/candidate/hand.cpp.o[0m
+[7.596s] [ 27%] [32m[1mLinking CXX static library libgpd_conv_layer.a[0m
+[7.739s] [ 27%] Built target gpd_conv_layer
+[7.787s] [ 29%] [32mBuilding CXX object CMakeFiles/gpd_classifier.dir/src/gpd/net/classifier.cpp.o[0m
+[7.791s] [ 30%] [32mBuilding CXX object CMakeFiles/gpd_classifier.dir/src/gpd/net/eigen_classifier.cpp.o[0m
+[8.111s] [ 32%] [32m[1mLinking CXX static library libgpd_local_frame.a[0m
+[8.126s] [ 33%] [32m[1mLinking CXX static library libgpd_point_list.a[0m
+[8.281s] [ 33%] Built target gpd_point_list
+[8.286s] [ 33%] Built target gpd_local_frame
+[8.330s] [ 35%] [32mBuilding CXX object CMakeFiles/gpd_antipodal.dir/src/gpd/candidate/antipodal.cpp.o[0m
+[9.091s] [ 36%] [32m[1mLinking CXX static library libgpd_hand.a[0m
+[9.243s] [ 36%] Built target gpd_hand
+[9.289s] [ 38%] [32mBuilding CXX object CMakeFiles/gpd_clustering.dir/src/gpd/clustering.cpp.o[0m
+[10.518s] [ 40%] [32m[1mLinking CXX static library libgpd_antipodal.a[0m
+[10.664s] [ 40%] Built target gpd_antipodal
+[10.705s] [ 41%] [32mBuilding CXX object CMakeFiles/gpd_hand_set.dir/src/gpd/candidate/hand_set.cpp.o[0m
+[11.100s] [ 43%] [32m[1mLinking CXX static library libgpd_classifier.a[0m
+[11.244s] [ 43%] Built target gpd_classifier
+[13.286s] [ 44%] [32m[1mLinking CXX static library libgpd_clustering.a[0m
+[13.463s] [ 44%] Built target gpd_clustering
+[16.474s] [ 46%] [32m[1mLinking CXX static library libgpd_hand_set.a[0m
+[16.611s] [ 46%] Built target gpd_hand_set
+[17.915s] [ 47%] [32m[1mLinking CXX static library libgpd_cloud.a[0m
+[18.081s] [ 47%] Built target gpd_cloud
+[18.102s] [ 49%] [32mBuilding CXX object CMakeFiles/gpd_image_15_channels_strategy.dir/src/gpd/descriptor/image_15_channels_strategy.cpp.o[0m
+[21.471s] [ 50%] [32m[1mLinking CXX static library libgpd_image_15_channels_strategy.a[0m
+[21.581s] [ 50%] Built target gpd_image_15_channels_strategy
+[21.603s] [ 52%] [32mBuilding CXX object CMakeFiles/gpd_plot.dir/src/gpd/util/plot.cpp.o[0m
+[31.817s] [ 53%] [32m[1mLinking CXX static library libgpd_plot.a[0m
+[31.919s] [ 53%] Built target gpd_plot
+[31.938s] [ 55%] [32mBuilding CXX object CMakeFiles/gpd_image_12_channels_strategy.dir/src/gpd/descriptor/image_12_channels_strategy.cpp.o[0m
+[34.543s] [ 56%] [32m[1mLinking CXX static library libgpd_image_12_channels_strategy.a[0m
+[34.614s] [ 56%] Built target gpd_image_12_channels_strategy
+[34.634s] [ 58%] [32mBuilding CXX object CMakeFiles/gpd_frame_estimator.dir/src/gpd/candidate/frame_estimator.cpp.o[0m
+[41.287s] [ 60%] [32m[1mLinking CXX static library libgpd_frame_estimator.a[0m
+[41.486s] [ 60%] Built target gpd_frame_estimator
+[41.528s] [ 61%] [32mBuilding CXX object CMakeFiles/gpd_image_3_channels_strategy.dir/src/gpd/descriptor/image_3_channels_strategy.cpp.o[0m
+[46.287s] [ 63%] [32m[1mLinking CXX static library libgpd_image_3_channels_strategy.a[0m
+[46.453s] [ 63%] Built target gpd_image_3_channels_strategy
+[46.496s] [ 64%] [32mBuilding CXX object CMakeFiles/gpd_hand_search.dir/src/gpd/candidate/hand_search.cpp.o[0m
+[56.218s] [ 66%] [32m[1mLinking CXX static library libgpd_hand_search.a[0m
+[56.298s] [ 66%] Built target gpd_hand_search
+[56.316s] [ 67%] [32mBuilding CXX object CMakeFiles/gpd_image_1_channels_strategy.dir/src/gpd/descriptor/image_1_channels_strategy.cpp.o[0m
+[58.873s] [ 69%] [32m[1mLinking CXX static library libgpd_image_1_channels_strategy.a[0m
+[58.948s] [ 69%] Built target gpd_image_1_channels_strategy
+[58.968s] [ 70%] [32mBuilding CXX object CMakeFiles/gpd_candidates_generator.dir/src/gpd/candidate/candidates_generator.cpp.o[0m
+[66.167s] [ 72%] [32m[1mLinking CXX static library libgpd_candidates_generator.a[0m
+[66.243s] [ 72%] Built target gpd_candidates_generator
+[66.261s] [ 75%] [32mBuilding CXX object CMakeFiles/gpd_generate_candidates.dir/src/generate_candidates.cpp.o[0m
+[66.261s] [ 75%] [32mBuilding CXX object CMakeFiles/gpd_image_strategy.dir/src/gpd/descriptor/image_strategy.cpp.o[0m
+[69.450s] [ 76%] [32m[1mLinking CXX static library libgpd_image_strategy.a[0m
+[69.529s] [ 76%] Built target gpd_image_strategy
+[69.548s] [ 78%] [32mBuilding CXX object CMakeFiles/gpd_image_generator.dir/src/gpd/descriptor/image_generator.cpp.o[0m
+[74.186s] [ 80%] [32m[1mLinking CXX executable generate_candidates[0m
+[76.125s] [01m[Klto-wrapper:[m[K [01;35m[Kwarning: [m[Kusing serial compilation of 4 LTRANS jobs
+[76.126s] [01m[Klto-wrapper:[m[K [01;36m[Knote: [m[Ksee the ]8;;https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-flto‘[01m[K-flto[m[K’ option documentation]8;; for more information
+[78.674s] [ 81%] [32m[1mLinking CXX static library libgpd_image_generator.a[0m
+[78.767s] [ 81%] Built target gpd_image_generator
+[85.590s] [ 81%] Built target gpd_generate_candidates
+[85.608s] [ 84%] [32mBuilding CXX object CMakeFiles/gpd_grasp_detector.dir/src/gpd/grasp_detector.cpp.o[0m
+[85.608s] [ 84%] [32mBuilding CXX object CMakeFiles/gpd_test_grasp_image.dir/src/tests/test_grasp_image.cpp.o[0m
+[93.263s] [ 86%] [32m[1mLinking CXX executable test_grasp_image[0m
+[93.762s] [ 87%] [32m[1mLinking CXX shared library libgpd.so[0m
+[95.172s] [01m[Klto-wrapper:[m[K [01;35m[Kwarning: [m[Kusing serial compilation of 5 LTRANS jobs
+[95.172s] [01m[Klto-wrapper:[m[K [01;36m[Knote: [m[Ksee the ]8;;https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-flto‘[01m[K-flto[m[K’ option documentation]8;; for more information
+[95.769s] [01m[Klto-wrapper:[m[K [01;35m[Kwarning: [m[Kusing serial compilation of 8 LTRANS jobs
+[95.769s] [01m[Klto-wrapper:[m[K [01;36m[Knote: [m[Ksee the ]8;;https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-flto‘[01m[K-flto[m[K’ option documentation]8;; for more information
+[106.625s] [ 87%] Built target gpd_test_grasp_image
+[112.867s] [ 87%] Built target gpd_grasp_detector
+[112.885s] [ 92%] [32mBuilding CXX object CMakeFiles/gpd_detect_grasps.dir/src/detect_grasps.cpp.o[0m
+[112.885s] [ 92%] [32mBuilding CXX object CMakeFiles/gpd_sequential_importance_sampling.dir/src/gpd/sequential_importance_sampling.cpp.o[0m
+[112.885s] [ 92%] [32mBuilding CXX object CMakeFiles/gpd_label_grasps.dir/src/label_grasps.cpp.o[0m
+[120.323s] [ 93%] [32m[1mLinking CXX executable detect_grasps[0m
+[120.367s] [ 95%] [32m[1mLinking CXX executable label_grasps[0m
+[121.215s] [ 96%] [32m[1mLinking CXX static library libgpd_sequential_importance_sampling.a[0m
+[121.320s] [ 96%] Built target gpd_sequential_importance_sampling
+[121.340s] [ 98%] [32mBuilding CXX object CMakeFiles/gpd_cem_detect_grasps.dir/src/cem_detect_grasps.cpp.o[0m
+[122.029s] [ 98%] Built target gpd_detect_grasps
+[122.140s] [ 98%] Built target gpd_label_grasps
+[128.447s] [100%] [32m[1mLinking CXX executable cem_detect_grasps[0m
+[130.707s] [100%] Built target gpd_cem_detect_grasps
+[130.717s] Invoked command in '/home/csrobot/flexbe_ws/build/gpd' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csrobot/flexbe_ws/build/gpd -- -j8 -l8
+[130.718s] Invoking command in '/home/csrobot/flexbe_ws/build/gpd': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csrobot/flexbe_ws/build/gpd
+[130.724s] -- Install configuration: "Debug"
+[130.725s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/lib/libgpd.so
+[130.746s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd
+[130.746s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/data_generator.h
+[130.746s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/grasp_detector.h
+[130.746s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/clustering.h
+[130.746s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor
+[130.746s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_1_channels_strategy.h
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_geometry.h
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_generator.h
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_15_channels_strategy.h
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_12_channels_strategy.h
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_strategy.h
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_3_channels_strategy.h
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/plot.h
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/point_list.h
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/config_file.h
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/cloud.h
+[130.747s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/eigen_utils.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/sequential_importance_sampling.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/caffe_classifier.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/layer.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/dense_layer.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/classifier.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/eigen_classifier.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/conv_layer.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/openvino_classifier.h.in
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/frame_estimator.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/candidates_generator.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/finger_hand.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand_set.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/local_frame.h
+[130.748s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand.h
+[130.749s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand_geometry.h
+[130.749s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand_search.h
+[130.749s] -- Installing: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/antipodal.h
+[130.749s] Invoked command in '/home/csrobot/flexbe_ws/build/gpd' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csrobot/flexbe_ws/build/gpd

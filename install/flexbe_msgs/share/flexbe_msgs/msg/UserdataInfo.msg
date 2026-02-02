@@ -1,1 +1,4 @@
-/home/csrobot/flexbe_ws/src/flexbe_behavior_engine/flexbe_msgs/msg/UserdataInfo.msg
+string state
+string key
+string type
+string data

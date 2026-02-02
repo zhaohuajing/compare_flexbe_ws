@@ -13,8 +13,26 @@ from ament_index_python.packages import get_package_share_directory
 
 from launch.actions import IncludeLaunchDescription
 
-# added 25/09/08
-from launch_ros.actions import Node
+from pathlib import Path
+
+# def generate_launch_description():
+#     return LaunchDescription([
+#         Node(
+#             package='point_cloud2_filters',
+#             executable='passthrough_filter_pointcloud2_node',
+#             name='passthrough_filter',
+#             output='screen',
+#             parameters=[{
+#                 'input_topic': '/input_pointcloud',  # Replace with your input topic
+#                 'output_topic': '/filtered_pointcloud', # Replace with your desired output topic
+#                 'filter_field_name': 'z',  # Axis to filter on (e.g., 'x', 'y', 'z')
+#                 'filter_limit_min': 0.0,   # Minimum value for the filter_field_name
+#                 'filter_limit_max': 1.5,   # Maximum value for the filter_field_name
+#                 'negative': False,         # Set to True to remove points outside the limits
+#             }]
+#         )
+#     ])
+
 
 def load_file(package_name, file_path):
     package_path = get_package_share_directory(package_name)
@@ -53,6 +71,8 @@ def launch_setup(context, *args, **kwargs):
     flexbe_onboard_path = get_package_share_directory('flexbe_onboard')
     flexbe_webui_path = get_package_share_directory('flexbe_webui')
 
+    gazebo_models_path = os.path.join(gazebo_package_path, 'models') 
+
     # Robot Description
     xacro_path = os.path.join(robot_description_pkg, f'{robot_model}', 'xacro', f'{robot_model}' + (f'_{workstation}' if workstation else '') + '.urdf.xacro')
     robot_description_config = xacro.process_file(xacro_path)
@@ -68,6 +88,7 @@ def launch_setup(context, *args, **kwargs):
 
     # Planning Group
     planning_group = f"{robot_make}_arm"
+    home_path = Path.home()
 
     # OMPL Planning
     ompl_planning_pipeline_config = {
@@ -79,7 +100,7 @@ def launch_setup(context, *args, **kwargs):
                                     default_planner_request_adapters/FixStartStateBounds \
                                     default_planner_request_adapters/FixStartStateCollision \
                                     default_planner_request_adapters/FixStartStatePathConstraints""",
-            'start_state_max_bounds_error': 0.1,
+            'start_state_max_bounds_error': 0.5, # 0.1,
         },
     }
     ompl_planning_yaml = load_yaml(moveit_config_package, 'config/ompl_planning.yaml')
@@ -145,13 +166,90 @@ def launch_setup(context, *args, **kwargs):
         output="screen",
     )
 
+    cgn_cloud_bringup = Node(
+        package="contact_graspnet_ros2",
+        executable="grasp_executor_cloud_server", 
+        name="grasp_executor_cloud_server", 
+        output="screen",
+    )
+
+    cgn_rgbd_bringup = Node(
+        package="contact_graspnet_ros2",
+        executable="grasp_executor_rgbd_server", 
+        name="grasp_executor_rgbd_server", 
+        output="screen",
+    )
+
+    uoc_cloud_bringup = Node(
+        package="unseen_obj_clst_ros2",
+        executable="segmentation_cloud_server", 
+        name="segmentation_cloud_server", 
+        output="screen",
+    )
+
+    uoc_rgbd_bringup = Node(
+        package="unseen_obj_clst_ros2",
+        executable="segmentation_rgbd_server", 
+        name="segmentation_rgbd_server", 
+        output="screen",
+    )
+
+    
+    #####################
+    # TOP-DOWN CAMERA
+    #####################
+
+    # spawn_camera = Node(
+    #     package='ros_gz_sim',
+    #     executable='create',
+    #     arguments=[
+    #         '-file', f'{gazebo_package_path}/rgbd_camera/model/rgbd_camera_model.sdf',
+    #         '-name', 'rgbd_camera',
+    #         '-x', '0.5', '-y', '0.0', '-z', '2.0', '-R', '0.0', '-P', '1.5708', '-Y', '0.0',  # Adjust pose if needed, camera has no collision
+    #     ],
+    #     output='screen'
+    # )
+
+    # sim_camera_tf = Node(
+    #     package="tf2_ros",
+    #     executable="static_transform_publisher",
+    #     arguments=["0.5", "0", "1.75", "0", "1.5708", "0", "simple_pedestal", "rgbd_camera/camera_link/rgbd_camera"],   # transform from base of robot is camera height - height of base over ground (1.5 - 0.25)
+    # )
+
+    #####################
+    # 45-DEG CAMERA
+    #####################
+
+    # spawn_camera = Node(
+    #     package='ros_gz_sim',
+    #     executable='create',
+    #     arguments=[
+    #         '-file', f'{gazebo_package_path}/rgbd_camera/model/rgbd_camera_model.sdf',
+    #         '-name', 'rgbd_camera',
+    #         '-x', '0.0', '-y', '0.0', '-z', '1.0', '-R', '0.0', '-P', '0.7854', '-Y', '0.0',  # Adjust pose if needed, camera has no collision
+    #     ],
+    #     output='screen'
+    # )
+
+    # sim_camera_tf = Node(
+    #     package="tf2_ros",
+    #     executable="static_transform_publisher",
+    #     arguments=["0.0", "0", "0.75", "0", "0.7854", "0", "simple_pedestal", "rgbd_camera/camera_link/rgbd_camera"],   # transform from base of robot is camera height - height of base over ground (1.5 - 0.25)
+    # )
+
+
+    #####################
+    # Table-top View (Recommned for contact-graspnet)
+    #####################
+
+
     spawn_camera = Node(
         package='ros_gz_sim',
         executable='create',
         arguments=[
             '-file', f'{gazebo_package_path}/rgbd_camera/model/rgbd_camera_model.sdf',
             '-name', 'rgbd_camera',
-            '-x', '0.5', '-y', '0.0', '-z', '2.0', '-R', '0.0', '-P', '1.5708', '-Y', '0.0',  # Adjust pose if needed
+            '-x', '0.0', '-y', '0.2', '-z', '1.5', '-R', '0.0', '-P', '1.2', '-Y', '0.0',  # Adjust pose if needed, camera has no collision
         ],
         output='screen'
     )
@@ -159,8 +257,11 @@ def launch_setup(context, *args, **kwargs):
     sim_camera_tf = Node(
         package="tf2_ros",
         executable="static_transform_publisher",
-        arguments=["0.5", "0", "1.75", "0", "1.5708", "0", "simple_pedestal", "rgbd_camera/camera_link/rgbd_camera"],
+        arguments=["0.0", "0.2", "1.25", "0", "1.2", "0", "simple_pedestal", "rgbd_camera/camera_link/rgbd_camera"],   # transform from base of robot is camera height - height of base over ground (1.5 - 0.25)
     )
+
+
+    ##################
 
     bridge = Node(
         package='ros_gz_bridge',
@@ -190,7 +291,7 @@ def launch_setup(context, *args, **kwargs):
         ],
     )
 
-    rviz_config_file = os.path.join(moveit_config_path, 'launch', 'run_move_group.rviz')
+    rviz_config_file = os.path.join(moveit_config_path, 'config', 'moveit.rviz')
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',
@@ -229,31 +330,86 @@ def launch_setup(context, *args, **kwargs):
         output="screen",
     )
 
-    # move_named = Node(
-    #     package="robot_common_manip",
-    #     executable="move_to_named_pose_service",
-    #     name="move_to_named_pose_service",
-    #     output="screen",
-    #     parameters=[
-    #         {"planning_group": planning_group},
-    #         robot_description,
-    #         robot_description_semantic,
-    #     ],
-    # )
+    move_cartesian = Node(
+        package="compare_flexbe_utilities",
+        executable="cartesian_move_to_pose_service",
+        name="cartesian_move_to_pose_service",
+        output="screen",
+        parameters=[
+            {"planning_group": planning_group},
+            robot_description,
+            robot_description_semantic,
+        ],
+    )
 
-    # move_pose = Node(
-    #     package="robot_common_manip",
-    #     executable="move_to_pose_service",
-    #     name="move_to_pose_service",
-    #     output="screen",
-    #     parameters=[
-    #         {"planning_group": planning_group},
-    #         robot_description,
-    #         robot_description_semantic,
-    #     ],
-    # )
+    move_pose = Node(
+        package="compare_flexbe_utilities",
+        executable="move_to_pose_service",
+        name="move_to_pose_service",
+        output="screen",
+        parameters=[
+            {"planning_group": planning_group},
+            robot_description,
+            robot_description_semantic,
+        ],
+    )
 
-    # temporally commented out: Could not complete colcon build, thus temporally moved compare_flexbe_utilities out of src
+    move_named = Node(
+        package="compare_flexbe_utilities",
+        executable="move_to_named_pose_service",
+        name="move_to_named_pose_service",
+        output="screen",
+        parameters=[
+            {"planning_group": planning_group},
+            robot_description,
+            robot_description_semantic,
+        ],
+    )
+
+    reach_to_grasp = Node(
+        package='compare_flexbe_utilities',      
+        executable='reach_to_grasp_service',    
+        name="reach_to_grasp_service", 
+        output='screen',
+        parameters=[
+            {"planning_group": planning_group},
+            robot_description,
+            robot_description_semantic,
+        ],
+    )
+
+
+    detect_grasps = Node(
+        package="gpd_ros",
+        executable="grasp_detection_server",
+        name="grasp_detection_server",
+        output="screen",
+        parameters=[
+            {"camera_position": [0.0, 0.0, 0.0]},
+            {"config_file": '/home/csrobot/flexbe_ws/gpd/cfg/ros_eigen_params.cfg'},
+            {"rviz_topic": "grasp_markers"},  # /rviz_grasps
+            {"grasps_topic": "/clustered_grasps"},
+        ],
+    )
+
+    compute_grasp_poses = Node(
+        package="gpd_ros",
+        executable="grasp_pose_server",
+        name="grasp_pose_server",
+        output="screen",
+        parameters=[
+            {"gripper_offset": 0.0},
+            {"approach_dist": 0.10},
+            {"retreat_dist": 0.0},
+            {"grasp_rot_x": 0.0},
+            {"grasp_rot_y": 0.0},
+            {"grasp_rot_z": 0.0},
+            {"grasp_rot_w": 1.0},
+            {"target_frame": "panda_link0"},
+            {"source_frame": "simple_pedestal"},
+        ],
+    )
+
     get_pointcloud_service = Node(
         package="compare_flexbe_utilities",
         executable="get_point_cloud_service",
@@ -261,7 +417,7 @@ def launch_setup(context, *args, **kwargs):
         output="screen",
         parameters=[
             {"default_camera_topic": "/camera/depth/points"},
-            {"target_frame": "base_link"},
+            {"target_frame": "panda_link0"},
             {"timeout_sec": 3.0},
         ],
     )
@@ -273,7 +429,7 @@ def launch_setup(context, *args, **kwargs):
         output="screen",
         parameters=[
             {"default_camera_topic": "/camera/depth/points"},
-            {"target_frame": "base_link"},
+            {"target_frame": "panda_link0"},
             {"timeout_sec": 3.0},
         ],
     )
@@ -285,54 +441,83 @@ def launch_setup(context, *args, **kwargs):
         output="screen",
         parameters=[
             {"default_camera_topic": "/camera/depth/points"},
-            {"target_frame": "base_link"},
+            {"target_frame": "panda_link0"},
             {"timeout_sec": 3.0},
         ],
     )
 
-    spawn_object_1 = Node(
+    # spawn_object_1 = Node(
+    #     package='ros_gz_sim',
+    #     executable='create',
+    #     arguments=[
+    #         '-file', '/home/csrobot/gazebo_models/wood_cube_10cm/model.sdf',
+    #         '-name', 'object_1',
+    #         '-x', '0.55', '-y', '0.05', '-z', '0.65', '-R', '0.0', '-P', '0.0', '-Y', '0.0',  # Adjust pose if needed
+    #     ],
+    #     output='screen'
+    # )
+
+    # spawn_object_2 = Node(
+    #     package='ros_gz_sim',
+    #     executable='create',
+    #     arguments=[
+    #         '-file', '/home/csrobot/gazebo_models/wood_cube_10cm/model.sdf',
+    #         '-name', 'object_2',
+    #         '-x', '0.45', '-y', '0.15', '-z', '0.65', '-R', '0.0', '-P', '0.0', '-Y', '0.0',  # Adjust pose if needed
+    #     ],
+    #     output='screen'
+    # )
+
+    # spawn_object_3 = Node(
+    #     package='ros_gz_sim',
+    #     executable='create',
+    #     arguments=[
+    #         '-file', '/home/csrobot/gazebo_models/wood_cube_10cm/model.sdf',
+    #         '-name', 'object_3',
+    #         '-x', '0.5', '-y', '0.10', '-z', '0.65', '-R', '0.0', '-P', '0.0', '-Y', '0.0',  # Adjust pose if needed
+    #     ],
+    #     output='screen'
+    # )
+
+    object_model_path = home_path/"gazebo_models"/"wood_cylinder_flared_2_5cm"/"model.sdf"
+    spawn_object = Node(
         package='ros_gz_sim',
         executable='create',
         arguments=[
-            '-file', '/home/csrobot/gazebo_models/wood_cube_10cm/model.sdf',
+            '-file', str(object_model_path),
             '-name', 'object_1',
             '-x', '0.55', '-y', '0.05', '-z', '0.65', '-R', '0.0', '-P', '0.0', '-Y', '0.0',  # Adjust pose if needed
+            # '-x', '0.55', '-y', '0.05', '-z', '0.65', '-R', '0.0', '-P', '1.57075', '-Y', '0.0',
         ],
         output='screen'
     )
 
-    spawn_object_2 = Node(
-        package='ros_gz_sim',
-        executable='create',
+    detect_grasps = Node(
+        package="gpd_ros",
+        executable="grasp_detection_server",
+        name="grasp_detection_server",
+        output="screen",
+        parameters=[
+            {"camera_position": [0.0, 0.0, 0.0]},
+            {"config_file": '/home/csrobot/flexbe_ws/gpd/cfg/ros_eigen_params.cfg'},
+            {"grasps_topic": 'clustered_grasps'},
+            # {"rviz_topic": "grasp_plotter"},
+            {"service_name": 'detect_grasps'},
+        ],
+    )
+
+    gz_services_bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        name='gz_bridge_services',
+        # Use CLI-style mappings as arguments (most robust across distros)
         arguments=[
-            '-file', '/home/csrobot/gazebo_models/wood_cube_10cm/model.sdf',
-            '-name', 'object_2',
-            '-x', '0.45', '-y', '0.15', '-z', '0.65', '-R', '0.0', '-P', '0.0', '-Y', '0.0',  # Adjust pose if needed
+            '/world/panda/create@ros_gz_interfaces/srv/SpawnEntity',
+            '/world/panda/remove@ros_gz_interfaces/srv/DeleteEntity',
+            '/world/panda/set_pose@ros_gz_interfaces/srv/SetEntityPose',
         ],
         output='screen'
     )
-
-    spawn_object_3 = Node(
-        package='ros_gz_sim',
-        executable='create',
-        arguments=[
-            '-file', '/home/csrobot/gazebo_models/wood_cube_10cm/model.sdf',
-            '-name', 'object_3',
-            '-x', '0.5', '-y', '0.10', '-z', '0.65', '-R', '0.0', '-P', '0.0', '-Y', '0.0',  # Adjust pose if needed
-        ],
-        output='screen'
-    )
-
-    # added 25/09/08
-
-    cartesian_move_node = Node(
-        package="compare_flexbe_utilities",
-        executable="cartesian_move_to_pose_service",
-        name="cartesian_move_to_pose_service",
-        output="screen"
-    )
-
-    # ld.add_action(cartesian_move_node)
 
     # start up all of the nodes
     return [
@@ -347,17 +532,24 @@ def launch_setup(context, *args, **kwargs):
         run_move_group_node,
         load_arm_controller,
         load_hand_controller,
-        # move_named,
-        # move_pose,
-        # (25/08/29) temporally commneted out the 3 items below for compare_flexbe_utilities is temporally removed 
+        move_cartesian,
+        move_named,
+        move_pose,
+        reach_to_grasp,
         get_pointcloud_service,
         euclidean_clustering_service,
         filter_by_indices_service,
-        spawn_object_1,
-        spawn_object_2,
-        spawn_object_3,
-        # added 25/09/08
-        cartesian_move_node,
+        # spawn_object_1,
+        # spawn_object_2,
+        # spawn_object_3,
+        spawn_object,
+        detect_grasps,
+        compute_grasp_poses,
+        gz_services_bridge,
+        # cgn_cloud_bringup,
+        cgn_rgbd_bringup,
+        # uoc_cloud_bringup,
+        uoc_rgbd_bringup,
     ]
 
 def generate_launch_description():

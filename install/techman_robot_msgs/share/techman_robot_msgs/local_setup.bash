@@ -1,1 +1,0 @@
-/home/csrobot/flexbe_ws/build/techman_robot_msgs/ament_cmake_environment_hooks/local_setup.bash

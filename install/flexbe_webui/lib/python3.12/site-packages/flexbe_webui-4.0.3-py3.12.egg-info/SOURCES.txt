@@ -17,13 +17,6 @@ flexbe_webui/tools.py
 flexbe_webui/webui_client.py
 flexbe_webui/webui_node.py
 flexbe_webui/webui_server.py
-flexbe_webui.egg-info/PKG-INFO
-flexbe_webui.egg-info/SOURCES.txt
-flexbe_webui.egg-info/dependency_links.txt
-flexbe_webui.egg-info/entry_points.txt
-flexbe_webui.egg-info/requires.txt
-flexbe_webui.egg-info/top_level.txt
-flexbe_webui.egg-info/zip-safe
 flexbe_webui/app/api.js
 flexbe_webui/app/events.js
 flexbe_webui/app/prototype.js

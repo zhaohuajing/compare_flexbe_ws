@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_indexed__type_support_c.cpp.o"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_indexed__type_support_c.cpp.o.d"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_samples__type_support_c.cpp.o"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_samples__type_support_c.cpp.o.d"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_sources__type_support_c.cpp.o"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_sources__type_support_c.cpp.o.d"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/grasp_config__type_support_c.cpp.o"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/grasp_config__type_support_c.cpp.o.d"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/grasp_config_list__type_support_c.cpp.o"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/grasp_config_list__type_support_c.cpp.o.d"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/samples_msg__type_support_c.cpp.o"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/samples_msg__type_support_c.cpp.o.d"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/srv/detail/compute_grasp_poses__type_support_c.cpp.o"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/srv/detail/compute_grasp_poses__type_support_c.cpp.o.d"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/srv/detail/detect_grasps__type_support_c.cpp.o"
+  "CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpd_ros/srv/detail/detect_grasps__type_support_c.cpp.o.d"
+  "libgpd_ros__rosidl_typesupport_fastrtps_c.pdb"
+  "libgpd_ros__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_indexed__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_indexed__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_samples__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_samples__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_sources__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/cloud_sources__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/grasp_config__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/grasp_config__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/grasp_config_list__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/grasp_config_list__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/samples_msg__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/msg/detail/samples_msg__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/srv/detail/compute_grasp_poses__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/srv/detail/compute_grasp_poses__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/srv/detail/detect_grasps__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/gpd_ros/srv/detail/detect_grasps__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/gpd_ros__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

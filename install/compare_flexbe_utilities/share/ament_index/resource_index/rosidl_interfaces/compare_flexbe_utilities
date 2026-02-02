@@ -1,1 +1,16 @@
-/home/csrobot/flexbe_ws/build/compare_flexbe_utilities/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/compare_flexbe_utilities
+srv/CartesianMoveToPose.idl
+srv/CartesianMoveToPose.srv
+srv/EuclideanClustering.idl
+srv/EuclideanClustering.srv
+srv/FilterByIndices.idl
+srv/FilterByIndices.srv
+srv/GetPointCloud.idl
+srv/GetPointCloud.srv
+srv/MoveToNamedPose.idl
+srv/MoveToNamedPose.srv
+srv/MoveToPose.idl
+srv/MoveToPose.srv
+srv/PlaneSegmentation.idl
+srv/PlaneSegmentation.srv
+srv/VoxelGridFilter.idl
+srv/VoxelGridFilter.srv

@@ -1,0 +1,8 @@
+/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/CloudIndexed.idl
+/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/CloudSamples.idl
+/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/CloudSources.idl
+/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/GraspConfig.idl
+/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/GraspConfigList.idl
+/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:msg/SamplesMsg.idl
+/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:srv/DetectGrasps.idl
+/home/csrobot/flexbe_ws/build/gpd_ros/rosidl_adapter/gpd_ros:srv/ComputeGraspPoses.idl

@@ -1,0 +1,239 @@
+[2.685s] Invoking command in '/home/csrobot/flexbe_ws/src/flexbe_webui': AMENT_PREFIX_PATH=/home/csrobot/flexbe_ws/install/flexbe_core:/home/csrobot/flexbe_ws/install/panda_moveit_config:/home/csrobot/flexbe_ws/install/panda_gazebo:/home/csrobot/flexbe_ws/install/panda_description:/home/csrobot/flexbe_ws/install/gpd_ros:/home/csrobot/flexbe_ws/install/flexbe_behavior_engine:/home/csrobot/flexbe_ws/install/flexbe_widget:/home/csrobot/flexbe_ws/install/flexbe_webui:/home/csrobot/flexbe_ws/install/flexbe_onboard:/home/csrobot/flexbe_ws/install/flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_testing:/home/csrobot/flexbe_ws/install/flexbe_mirror:/home/csrobot/flexbe_ws/install/flexbe_input:/home/csrobot/flexbe_ws/install/example_flexbe_states:/home/csrobot/flexbe_ws/install/compare_flexbe:/home/csrobot/flexbe_ws/install/compare_flexbe_states:/home/csrobot/flexbe_ws/install/compare_flexbe_behaviors:/home/csrobot/flexbe_ws/install/flexbe_msgs:/home/csrobot/flexbe_ws/install/compare_flexbe_utilities:/home/csrobot/flexbe_ws/install/armada_gazebo:/home/csrobot/flexbe_ws/install/armada_description:/home/csrobot/flexbe_ws/install/armada_bringup:/home/csrobot/graspnet_ws/install/unseen_obj_clst_ros2:/home/csrobot/graspnet_ws/install/contact_graspnet_ros2:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/csrobot/flexbe_ws/install/flexbe_msgs:/home/csrobot/flexbe_ws/install/panda_moveit_config:/home/csrobot/flexbe_ws/install/panda_gazebo:/home/csrobot/flexbe_ws/install/panda_description:/home/csrobot/flexbe_ws/install/gpd_ros:/home/csrobot/flexbe_ws/install/flexbe_behavior_engine:/home/csrobot/flexbe_ws/install/flexbe_widget:/home/csrobot/flexbe_ws/install/flexbe_testing:/home/csrobot/flexbe_ws/install/compare_flexbe:/home/csrobot/flexbe_ws/install/compare_flexbe_behaviors:/home/csrobot/flexbe_ws/install/compare_flexbe_utilities:/home/csrobot/flexbe_ws/install/armada_gazebo:/home/csrobot/flexbe_ws/install/armada_description:/home/csrobot/flexbe_ws/install/armada_bringup:/home/csrobot/graspnet_ws/install/unseen_obj_clst_ros2:/home/csrobot/graspnet_ws/install/contact_graspnet_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/csrobot/flexbe_ws/install/flexbe_msgs/lib:/home/csrobot/flexbe_ws/install/gpd_ros/lib:/home/csrobot/flexbe_ws/install/gpd/lib:/home/csrobot/flexbe_ws/install/compare_flexbe_utilities/lib:/home/csrobot/graspnet_ws/install/unseen_obj_clst_ros2/lib:/home/csrobot/graspnet_ws/install/contact_graspnet_ros2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64 PYTHONPATH=/home/csrobot/flexbe_ws/build/flexbe_webui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_core/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_msgs/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_widget/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_onboard/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_states/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_testing/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_mirror/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_input/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/example_flexbe_states/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/compare_flexbe_states/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/compare_flexbe_utilities/lib/python3.12/site-packages:/home/csrobot/graspnet_ws/install/unseen_obj_clst_ros2/lib/python3.12/site-packages:/home/csrobot/graspnet_ws/install/contact_graspnet_ros2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flexbe_webui build --build-base /home/csrobot/flexbe_ws/build/flexbe_webui/build install --record /home/csrobot/flexbe_ws/build/flexbe_webui/install.log --single-version-externally-managed install_data
+[3.552s] running egg_info
+[3.552s] creating ../../build/flexbe_webui/flexbe_webui.egg-info
+[3.607s] writing ../../build/flexbe_webui/flexbe_webui.egg-info/PKG-INFO
+[3.607s] writing dependency_links to ../../build/flexbe_webui/flexbe_webui.egg-info/dependency_links.txt
+[3.607s] writing entry points to ../../build/flexbe_webui/flexbe_webui.egg-info/entry_points.txt
+[3.607s] writing requirements to ../../build/flexbe_webui/flexbe_webui.egg-info/requires.txt
+[3.608s] writing top-level names to ../../build/flexbe_webui/flexbe_webui.egg-info/top_level.txt
+[3.608s] writing manifest file '../../build/flexbe_webui/flexbe_webui.egg-info/SOURCES.txt'
+[3.694s] reading manifest file '../../build/flexbe_webui/flexbe_webui.egg-info/SOURCES.txt'
+[3.696s] adding license file 'LICENSE'
+[3.697s] writing manifest file '../../build/flexbe_webui/flexbe_webui.egg-info/SOURCES.txt'
+[3.697s] running build
+[3.697s] running build_py
+[3.698s] creating /home/csrobot/flexbe_ws/build/flexbe_webui/build
+[3.698s] creating /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib
+[3.698s] creating /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui
+[3.699s] copying flexbe_webui/webui_client.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui
+[3.699s] copying flexbe_webui/webui_node.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui
+[3.699s] copying flexbe_webui/__init__.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui
+[3.699s] copying flexbe_webui/settings.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui
+[3.702s] copying flexbe_webui/webui_server.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui
+[3.703s] copying flexbe_webui/tools.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui
+[3.703s] creating /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io
+[3.703s] copying flexbe_webui/io/code_generator.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io
+[3.703s] copying flexbe_webui/io/__init__.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io
+[3.703s] copying flexbe_webui/io/state_parser.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io
+[3.703s] copying flexbe_webui/io/base_models.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io
+[3.704s] copying flexbe_webui/io/behavior_parser.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io
+[3.704s] copying flexbe_webui/io/manifest_generator.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io
+[3.705s] creating /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/ros
+[3.705s] copying flexbe_webui/ros/__init__.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/ros
+[3.706s] copying flexbe_webui/ros/packages.py -> /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/ros
+[3.706s] running install
+[3.714s] running install_lib
+[3.749s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui
+[3.749s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io
+[3.750s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io/code_generator.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io
+[3.750s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io/__init__.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io
+[3.751s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io/state_parser.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io
+[3.751s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io/base_models.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io
+[3.751s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io/behavior_parser.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io
+[3.751s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/io/manifest_generator.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io
+[3.752s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/webui_client.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui
+[3.752s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/webui_node.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui
+[3.752s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/__init__.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui
+[3.752s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/ros
+[3.753s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/ros/__init__.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/ros
+[3.753s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/ros/packages.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/ros
+[3.753s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/settings.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui
+[3.754s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/webui_server.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui
+[3.754s] copying /home/csrobot/flexbe_ws/build/flexbe_webui/build/lib/flexbe_webui/tools.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui
+[3.756s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io/code_generator.py to code_generator.cpython-312.pyc
+[3.764s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io/__init__.py to __init__.cpython-312.pyc
+[3.766s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io/state_parser.py to state_parser.cpython-312.pyc
+[3.767s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io/base_models.py to base_models.cpython-312.pyc
+[3.767s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io/behavior_parser.py to behavior_parser.cpython-312.pyc
+[3.770s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/io/manifest_generator.py to manifest_generator.cpython-312.pyc
+[3.771s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/webui_client.py to webui_client.cpython-312.pyc
+[3.775s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/webui_node.py to webui_node.cpython-312.pyc
+[3.779s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/__init__.py to __init__.cpython-312.pyc
+[3.779s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/ros/__init__.py to __init__.cpython-312.pyc
+[3.780s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/ros/packages.py to packages.cpython-312.pyc
+[3.782s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/settings.py to settings.cpython-312.pyc
+[3.787s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/webui_server.py to webui_server.cpython-312.pyc
+[3.794s] byte-compiling /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui/tools.py to tools.cpython-312.pyc
+[3.794s] running install_data
+[3.794s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/ament_index
+[3.795s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/ament_index/resource_index
+[3.795s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/ament_index/resource_index/packages
+[3.795s] copying resource/flexbe_webui -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/ament_index/resource_index/packages
+[3.796s] copying package.xml -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui
+[3.796s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/launch
+[3.797s] copying launch/flexbe_ocs.launch.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/launch
+[3.797s] copying launch/flexbe_full.launch.py -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/launch
+[3.798s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/config
+[3.798s] copying config/flexbe_webui_config.json -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/config
+[3.798s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app
+[3.799s] copying flexbe_webui/app/events.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app
+[3.799s] copying flexbe_webui/app/window.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app
+[3.799s] copying flexbe_webui/app/prototype.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app
+[3.800s] copying flexbe_webui/app/window.html -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app
+[3.800s] copying flexbe_webui/app/api.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app
+[3.801s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/io
+[3.801s] copying flexbe_webui/app/io/io_modelgenerator.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/io
+[3.801s] copying flexbe_webui/app/io/io_codeparser.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/io
+[3.802s] copying flexbe_webui/app/io/io_behaviorsaver.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/io
+[3.802s] copying flexbe_webui/app/io/io_behaviorloader.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/io
+[3.803s] copying flexbe_webui/app/io/io_manifestparser.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/io
+[3.803s] copying flexbe_webui/app/io/io.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/io
+[3.803s] copying flexbe_webui/app/io/io_filesystem.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/io
+[3.804s] copying flexbe_webui/app/io/io_stateparser.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/io
+[3.804s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ext
+[3.805s] copying flexbe_webui/app/ext/dagre.min.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ext
+[3.805s] copying flexbe_webui/app/ext/mousetrap.min.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ext
+[3.805s] copying flexbe_webui/app/ext/yaml.min.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ext
+[3.806s] copying flexbe_webui/app/ext/raphael.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ext
+[3.806s] copying flexbe_webui/app/ext/d3.min.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ext
+[3.807s] copying flexbe_webui/app/ext/mousetrap-global-bind.min.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ext
+[3.807s] copying flexbe_webui/app/ext/json_parse_raw.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ext
+[3.807s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ws
+[3.808s] copying flexbe_webui/app/ws/ws_documentation.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ws
+[3.808s] copying flexbe_webui/app/ws/ws_statedefinition.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ws
+[3.808s] copying flexbe_webui/app/ws/ws_behaviorlib.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ws
+[3.809s] copying flexbe_webui/app/ws/ws_statelib.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ws
+[3.809s] copying flexbe_webui/app/ws/ws_behaviorstatedefinition.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ws
+[3.809s] copying flexbe_webui/app/ws/ws_statemachinedefinition.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ws
+[3.810s] copying flexbe_webui/app/ws/ws.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ws
+[3.810s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ros
+[3.810s] copying flexbe_webui/app/ros/ros_publisher.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ros
+[3.811s] copying flexbe_webui/app/ros/ros_actionclient.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ros
+[3.811s] copying flexbe_webui/app/ros/ros_subscriber.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ros
+[3.811s] copying flexbe_webui/app/ros/ros.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ros
+[3.811s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/drawable
+[3.812s] copying flexbe_webui/app/drawable/drawable_state.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/drawable
+[3.812s] copying flexbe_webui/app/drawable/drawable_note.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/drawable
+[3.812s] copying flexbe_webui/app/drawable/drawable_behaviorstate.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/drawable
+[3.813s] copying flexbe_webui/app/drawable/drawable_transition.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/drawable
+[3.813s] copying flexbe_webui/app/drawable/drawable.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/drawable
+[3.813s] copying flexbe_webui/app/drawable/drawable_helper.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/drawable
+[3.814s] copying flexbe_webui/app/drawable/drawable_statemachine.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/drawable
+[3.814s] copying flexbe_webui/app/drawable/drawable_outcome.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/drawable
+[3.814s] copying flexbe_webui/app/drawable/drawable_containerpath.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/drawable
+[3.815s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui
+[3.815s] copying flexbe_webui/app/ui/ui_feed.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui
+[3.815s] copying flexbe_webui/app/ui/ui_tools.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui
+[3.816s] copying flexbe_webui/app/ui/ui_runtimecontrol.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui
+[3.816s] copying flexbe_webui/app/ui/ui_statemachine.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui
+[3.816s] copying flexbe_webui/app/ui/ui_dashboard.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui
+[3.817s] copying flexbe_webui/app/ui/ui.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui
+[3.817s] copying flexbe_webui/app/ui/ui_settings.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui
+[3.818s] copying flexbe_webui/app/ui/ui_menu.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui
+[3.818s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui/panels
+[3.818s] copying flexbe_webui/app/ui/panels/ui_panels.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui/panels
+[3.819s] copying flexbe_webui/app/ui/panels/ui_panels_terminal.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui/panels
+[3.819s] copying flexbe_webui/app/ui/panels/ui_panels_selectbehavior.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui/panels
+[3.819s] copying flexbe_webui/app/ui/panels/ui_panels_stateproperties.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui/panels
+[3.820s] copying flexbe_webui/app/ui/panels/ui_panels_addstate.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/ui/panels
+[3.820s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_model
+[3.820s] copying flexbe_webui/app/_model/behavior.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_model
+[3.821s] copying flexbe_webui/app/_model/note.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_model
+[3.821s] copying flexbe_webui/app/_model/statemachine.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_model
+[3.821s] copying flexbe_webui/app/_model/state.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_model
+[3.822s] copying flexbe_webui/app/_model/behaviorstate.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_model
+[3.822s] copying flexbe_webui/app/_model/transition.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_model
+[3.823s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_test
+[3.824s] copying flexbe_webui/app/_test/dump_workspace.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_test
+[3.824s] copying flexbe_webui/app/_test/statelib.test.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_test
+[3.824s] copying flexbe_webui/app/_test/testreport.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_test
+[3.824s] copying flexbe_webui/app/_test/scripts.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_test
+[3.824s] copying flexbe_webui/app/_test/checkbehaviorsreport.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_test
+[3.824s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/style
+[3.824s] copying flexbe_webui/app/style/dashboard.css -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/style
+[3.825s] copying flexbe_webui/app/style/statemachine.css -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/style
+[3.825s] copying flexbe_webui/app/style/main.css -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/style
+[3.825s] copying flexbe_webui/app/style/popup.css -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/style
+[3.825s] copying flexbe_webui/app/style/runtimecontrol.css -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/style
+[3.825s] copying flexbe_webui/app/style/settings.css -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/style
+[3.825s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.826s] copying flexbe_webui/app/img/warning.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.826s] copying flexbe_webui/app/img/file_save.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.827s] copying flexbe_webui/app/img/chrislab_logo.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.828s] copying flexbe_webui/app/img/dataflow_white.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.828s] copying flexbe_webui/app/img/version_latest.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.828s] copying flexbe_webui/app/img/icon-128.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.829s] copying flexbe_webui/app/img/check.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.829s] copying flexbe_webui/app/img/error.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.829s] copying flexbe_webui/app/img/icon-16.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.829s] copying flexbe_webui/app/img/title_db.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.830s] copying flexbe_webui/app/img/file_save_white.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.830s] copying flexbe_webui/app/img/title_settings.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.830s] copying flexbe_webui/app/img/settings_import.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.831s] copying flexbe_webui/app/img/title_sm.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.831s] copying flexbe_webui/app/img/db.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.831s] copying flexbe_webui/app/img/title_save.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.831s] copying flexbe_webui/app/img/add.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.832s] copying flexbe_webui/app/img/link.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.832s] copying flexbe_webui/app/img/turn_back.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.832s] copying flexbe_webui/app/img/title_terminal.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.833s] copying flexbe_webui/app/img/version_old.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.833s] copying flexbe_webui/app/img/lightning.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.833s] copying flexbe_webui/app/img/cross.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.833s] copying flexbe_webui/app/img/se_active.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.834s] copying flexbe_webui/app/img/se.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.834s] copying flexbe_webui/app/img/information.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.834s] copying flexbe_webui/app/img/title_add.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.834s] copying flexbe_webui/app/img/file_load.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.835s] copying flexbe_webui/app/img/settings_export.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.835s] copying flexbe_webui/app/img/sm_active.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.836s] copying flexbe_webui/app/img/logo_borderless.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.836s] copying flexbe_webui/app/img/group_selection.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.837s] copying flexbe_webui/app/img/table_row_delete.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.837s] copying flexbe_webui/app/img/link_break.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.837s] copying flexbe_webui/app/img/version_offline.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.837s] copying flexbe_webui/app/img/autoconnect.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.838s] copying flexbe_webui/app/img/db_active.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.838s] copying flexbe_webui/app/img/note_add.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.838s] copying flexbe_webui/app/img/rc_active.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.839s] copying flexbe_webui/app/img/title_load.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.839s] copying flexbe_webui/app/img/team_vigir_logo.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.839s] copying flexbe_webui/app/img/outcome.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.839s] copying flexbe_webui/app/img/move-icon.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.840s] copying flexbe_webui/app/img/title_terminal_white.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.840s] copying flexbe_webui/app/img/sm.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.840s] copying flexbe_webui/app/img/redo.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.841s] copying flexbe_webui/app/img/lock.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.841s] copying flexbe_webui/app/img/pencil.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.841s] copying flexbe_webui/app/img/undo.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.841s] copying flexbe_webui/app/img/rc.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.842s] copying flexbe_webui/app/img/version_devel.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.842s] copying flexbe_webui/app/img/page_view.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.842s] copying flexbe_webui/app/img/page_edit.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.843s] copying flexbe_webui/app/img/tick.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.843s] copying flexbe_webui/app/img/note.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.843s] copying flexbe_webui/app/img/file_new.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.843s] copying flexbe_webui/app/img/dataflow.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.844s] copying flexbe_webui/app/img/smile.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.844s] copying flexbe_webui/app/img/close.png -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/img
+[3.844s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_helper
+[3.845s] copying flexbe_webui/app/_helper/tools.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_helper
+[3.845s] copying flexbe_webui/app/_helper/activitytracer.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_helper
+[3.845s] copying flexbe_webui/app/_helper/checking.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_helper
+[3.845s] copying flexbe_webui/app/_helper/command_lib.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_helper
+[3.846s] copying flexbe_webui/app/_helper/autocomplete.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_helper
+[3.846s] copying flexbe_webui/app/_helper/varsolver.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/_helper
+[3.846s] creating /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/rc
+[3.847s] copying flexbe_webui/app/rc/rc_controller.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/rc
+[3.847s] copying flexbe_webui/app/rc/rc_pubsub.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/rc
+[3.847s] copying flexbe_webui/app/rc/rc_ros.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/rc
+[3.847s] copying flexbe_webui/app/rc/rc_sync.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/rc
+[3.848s] copying flexbe_webui/app/rc/rc.js -> /home/csrobot/flexbe_ws/install/flexbe_webui/share/flexbe_webui/app/rc
+[3.848s] running install_egg_info
+[3.883s] Copying ../../build/flexbe_webui/flexbe_webui.egg-info to /home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages/flexbe_webui-4.0.3-py3.12.egg-info
+[3.887s] running install_scripts
+[4.093s] Installing webui_client script to /home/csrobot/flexbe_ws/install/flexbe_webui/lib/flexbe_webui
+[4.094s] Installing webui_node script to /home/csrobot/flexbe_ws/install/flexbe_webui/lib/flexbe_webui
+[4.094s] Installing webui_server script to /home/csrobot/flexbe_ws/install/flexbe_webui/lib/flexbe_webui
+[4.096s] writing list of installed files to '/home/csrobot/flexbe_ws/build/flexbe_webui/install.log'
+[4.148s] Invoked command in '/home/csrobot/flexbe_ws/src/flexbe_webui' returned '0': AMENT_PREFIX_PATH=/home/csrobot/flexbe_ws/install/flexbe_core:/home/csrobot/flexbe_ws/install/panda_moveit_config:/home/csrobot/flexbe_ws/install/panda_gazebo:/home/csrobot/flexbe_ws/install/panda_description:/home/csrobot/flexbe_ws/install/gpd_ros:/home/csrobot/flexbe_ws/install/flexbe_behavior_engine:/home/csrobot/flexbe_ws/install/flexbe_widget:/home/csrobot/flexbe_ws/install/flexbe_webui:/home/csrobot/flexbe_ws/install/flexbe_onboard:/home/csrobot/flexbe_ws/install/flexbe_states:/home/csrobot/flexbe_ws/install/flexbe_testing:/home/csrobot/flexbe_ws/install/flexbe_mirror:/home/csrobot/flexbe_ws/install/flexbe_input:/home/csrobot/flexbe_ws/install/example_flexbe_states:/home/csrobot/flexbe_ws/install/compare_flexbe:/home/csrobot/flexbe_ws/install/compare_flexbe_states:/home/csrobot/flexbe_ws/install/compare_flexbe_behaviors:/home/csrobot/flexbe_ws/install/flexbe_msgs:/home/csrobot/flexbe_ws/install/compare_flexbe_utilities:/home/csrobot/flexbe_ws/install/armada_gazebo:/home/csrobot/flexbe_ws/install/armada_description:/home/csrobot/flexbe_ws/install/armada_bringup:/home/csrobot/graspnet_ws/install/unseen_obj_clst_ros2:/home/csrobot/graspnet_ws/install/contact_graspnet_ros2:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/csrobot/flexbe_ws/install/flexbe_msgs:/home/csrobot/flexbe_ws/install/panda_moveit_config:/home/csrobot/flexbe_ws/install/panda_gazebo:/home/csrobot/flexbe_ws/install/panda_description:/home/csrobot/flexbe_ws/install/gpd_ros:/home/csrobot/flexbe_ws/install/flexbe_behavior_engine:/home/csrobot/flexbe_ws/install/flexbe_widget:/home/csrobot/flexbe_ws/install/flexbe_testing:/home/csrobot/flexbe_ws/install/compare_flexbe:/home/csrobot/flexbe_ws/install/compare_flexbe_behaviors:/home/csrobot/flexbe_ws/install/compare_flexbe_utilities:/home/csrobot/flexbe_ws/install/armada_gazebo:/home/csrobot/flexbe_ws/install/armada_description:/home/csrobot/flexbe_ws/install/armada_bringup:/home/csrobot/graspnet_ws/install/unseen_obj_clst_ros2:/home/csrobot/graspnet_ws/install/contact_graspnet_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/csrobot/flexbe_ws/install/flexbe_msgs/lib:/home/csrobot/flexbe_ws/install/gpd_ros/lib:/home/csrobot/flexbe_ws/install/gpd/lib:/home/csrobot/flexbe_ws/install/compare_flexbe_utilities/lib:/home/csrobot/graspnet_ws/install/unseen_obj_clst_ros2/lib:/home/csrobot/graspnet_ws/install/contact_graspnet_ros2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64 PYTHONPATH=/home/csrobot/flexbe_ws/build/flexbe_webui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_core/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_msgs/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/gpd_ros/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_widget/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_webui/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_onboard/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_states/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_testing/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_mirror/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/flexbe_input/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/example_flexbe_states/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/compare_flexbe_states/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages:/home/csrobot/flexbe_ws/install/compare_flexbe_utilities/lib/python3.12/site-packages:/home/csrobot/graspnet_ws/install/unseen_obj_clst_ros2/lib/python3.12/site-packages:/home/csrobot/graspnet_ws/install/contact_graspnet_ros2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flexbe_webui build --build-base /home/csrobot/flexbe_ws/build/flexbe_webui/build install --record /home/csrobot/flexbe_ws/build/flexbe_webui/install.log --single-version-externally-managed install_data

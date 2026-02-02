@@ -1,1 +1,0 @@
-/home/csrobot/flexbe_ws/src/tmr_ros2/tm_moveit/tm14_moveit_config/launch/moveit_rviz.launch.py

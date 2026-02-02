@@ -1,1 +1,6 @@
-/home/csrobot/flexbe_ws/src/flexbe_behavior_engine/flexbe_widget/bin/be_launcher
+#!/usr/bin/env python3
+
+from flexbe_widget.behavior_launcher import behavior_launcher_main
+
+if __name__ == '__main__':
+    behavior_launcher_main()

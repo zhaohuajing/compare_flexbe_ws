@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "compare_flexbe_utilities/srv/detail/cartesian_move_to_pose__type_support.h"
+#include "compare_flexbe_utilities/srv/detail/cartesian_move_to_pose__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "compare_flexbe_utilities/srv/detail/cartesian_move_to_pose__struct.h"
-#include "compare_flexbe_utilities/srv/detail/cartesian_move_to_pose__functions.h"
 
 #ifdef __cplusplus
 extern "C"

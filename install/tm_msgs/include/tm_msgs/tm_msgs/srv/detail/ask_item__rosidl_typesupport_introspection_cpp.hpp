@@ -1,1 +1,0 @@
-/home/csrobot/flexbe_ws/build/tm_msgs/rosidl_typesupport_introspection_cpp/tm_msgs/srv/detail/ask_item__rosidl_typesupport_introspection_cpp.hpp

@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
-#include "flexbe_msgs/action/detail/behavior_execution__struct.h"
-#include "flexbe_msgs/action/detail/behavior_execution__functions.h"
 #include "flexbe_msgs/action/detail/behavior_execution__type_support.h"
+#include "flexbe_msgs/action/detail/behavior_execution__functions.h"
+#include "flexbe_msgs/action/detail/behavior_execution__struct.h"
 
 #ifdef __cplusplus
 extern "C"

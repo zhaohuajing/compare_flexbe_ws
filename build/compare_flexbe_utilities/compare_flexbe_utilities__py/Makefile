@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/csrobot/flexbe_ws/src/compare_flexbe_utilities
+CMAKE_SOURCE_DIR = /home/csrobot/flexbe_ws/src/compare_flexbe/compare_flexbe_utilities
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/csrobot/flexbe_ws/build/compare_flexbe_utilities

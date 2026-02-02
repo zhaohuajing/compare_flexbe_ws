@@ -1,0 +1,6 @@
+Invoking command in '/home/csrobot/flexbe_ws/build/gpd': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/csrobot/flexbe_ws/gpd -DCMAKE_INSTALL_PREFIX=/home/csrobot/flexbe_ws/install/gpd
+Invoked command in '/home/csrobot/flexbe_ws/build/gpd' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/csrobot/flexbe_ws/gpd -DCMAKE_INSTALL_PREFIX=/home/csrobot/flexbe_ws/install/gpd
+Invoking command in '/home/csrobot/flexbe_ws/build/gpd': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csrobot/flexbe_ws/build/gpd -- -j8 -l8
+Invoked command in '/home/csrobot/flexbe_ws/build/gpd' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csrobot/flexbe_ws/build/gpd -- -j8 -l8
+Invoking command in '/home/csrobot/flexbe_ws/build/gpd': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csrobot/flexbe_ws/build/gpd
+Invoked command in '/home/csrobot/flexbe_ws/build/gpd' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csrobot/flexbe_ws/build/gpd

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gpd_ros/srv/ComputeGraspPoses.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "gpd_ros/msg/GraspConfigList.idl"
+
+module gpd_ros {
+  module srv {
+    struct ComputeGraspPoses_Request {
+      gpd_ros::msg::GraspConfigList grasps;
+    };
+    struct ComputeGraspPoses_Response {
+      sequence<geometry_msgs::msg::Pose> target_poses;
+
+      sequence<geometry_msgs::msg::Pose> approach_poses;
+    };
+  };
+};
