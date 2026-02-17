@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: flexbe-mirror
-Version: 4.0.1
-Summary: flexbe_mirror implements functionality to remotely mirror an executed behavior.
-Maintainer: phil
-Maintainer-email: philsplus@gmail.com
-License: BSD

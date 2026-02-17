@@ -1,3 +1,7 @@
 *~
 *.pyc
 *_tmp.py
+
+install
+build
+log
