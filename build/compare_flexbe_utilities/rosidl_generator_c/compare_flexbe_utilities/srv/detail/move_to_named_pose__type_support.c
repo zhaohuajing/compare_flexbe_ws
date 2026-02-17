@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "compare_flexbe_utilities/srv/detail/move_to_named_pose__functions.h"
-#include "compare_flexbe_utilities/srv/detail/move_to_named_pose__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "compare_flexbe_utilities/srv/detail/move_to_named_pose__type_support.h"
+#include "compare_flexbe_utilities/srv/detail/move_to_named_pose__functions.h"
+#include "compare_flexbe_utilities/srv/detail/move_to_named_pose__struct.h"
 
 #ifdef __cplusplus
 extern "C"

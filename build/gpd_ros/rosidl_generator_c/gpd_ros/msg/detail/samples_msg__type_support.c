@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "gpd_ros/msg/detail/samples_msg__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "gpd_ros/msg/detail/samples_msg__type_support.h"
-#include "gpd_ros/msg/detail/samples_msg__functions.h"
 #include "gpd_ros/msg/detail/samples_msg__struct.h"
 
 #ifdef __cplusplus

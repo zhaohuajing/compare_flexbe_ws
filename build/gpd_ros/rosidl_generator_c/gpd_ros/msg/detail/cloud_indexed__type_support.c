@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "gpd_ros/msg/detail/cloud_indexed__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "gpd_ros/msg/detail/cloud_indexed__type_support.h"
 #include "gpd_ros/msg/detail/cloud_indexed__struct.h"
+#include "gpd_ros/msg/detail/cloud_indexed__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "gpd_ros/msg/detail/cloud_indexed__functions.h"
 
 #ifdef __cplusplus
 extern "C"

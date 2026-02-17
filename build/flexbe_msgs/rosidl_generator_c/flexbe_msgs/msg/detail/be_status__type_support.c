@@ -6,8 +6,8 @@
 
 #include "flexbe_msgs/msg/detail/be_status__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "flexbe_msgs/msg/detail/be_status__struct.h"
 #include "flexbe_msgs/msg/detail/be_status__type_support.h"
+#include "flexbe_msgs/msg/detail/be_status__struct.h"
 
 #ifdef __cplusplus
 extern "C"

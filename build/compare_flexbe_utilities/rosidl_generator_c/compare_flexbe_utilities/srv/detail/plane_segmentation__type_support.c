@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "compare_flexbe_utilities/srv/detail/plane_segmentation__functions.h"
-#include "compare_flexbe_utilities/srv/detail/plane_segmentation__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "compare_flexbe_utilities/srv/detail/plane_segmentation__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "compare_flexbe_utilities/srv/detail/plane_segmentation__type_support.h"
+#include "compare_flexbe_utilities/srv/detail/plane_segmentation__functions.h"
 
 #ifdef __cplusplus
 extern "C"

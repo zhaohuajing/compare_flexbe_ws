@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "gpd_ros/msg/detail/cloud_sources__type_support.h"
-#include "gpd_ros/msg/detail/cloud_sources__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "gpd_ros/msg/detail/cloud_sources__functions.h"
+#include "gpd_ros/msg/detail/cloud_sources__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "gpd_ros/msg/detail/cloud_sources__struct.h"
 
 #ifdef __cplusplus
 extern "C"

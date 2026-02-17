@@ -6,8 +6,8 @@
 
 #include "gpd_ros/msg/detail/cloud_samples__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "gpd_ros/msg/detail/cloud_samples__struct.h"
 #include "gpd_ros/msg/detail/cloud_samples__type_support.h"
+#include "gpd_ros/msg/detail/cloud_samples__struct.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -1,0 +1,71 @@
+[  3%] Built target gpd_conv_layer
+[  6%] Built target gpd_dense_layer
+[  9%] Built target gpd_config_file
+[ 12%] Built target gpd_local_frame
+[ 15%] Built target gpd_finger_hand
+[ 18%] Built target gpd_eigen_utils
+[ 21%] Built target gpd_image_geometry
+[ 24%] Built target gpd_hand_geometry
+[ 29%] Built target gpd_classifier
+[ 32%] Built target gpd_hand
+[ 35%] Built target gpd_point_list
+[ 38%] Built target gpd_cloud
+[ 41%] Built target gpd_clustering
+[ 44%] Built target gpd_frame_estimator
+[ 47%] Built target gpd_antipodal
+[ 50%] Built target gpd_hand_set
+[ 53%] Built target gpd_image_15_channels_strategy
+[ 56%] Built target gpd_plot
+[ 60%] Built target gpd_image_12_channels_strategy
+[ 63%] Built target gpd_hand_search
+[ 66%] Built target gpd_image_3_channels_strategy
+[ 69%] Built target gpd_image_1_channels_strategy
+[ 72%] Built target gpd_candidates_generator
+[ 75%] Built target gpd_image_strategy
+[ 78%] Built target gpd_generate_candidates
+[ 81%] Built target gpd_image_generator
+[ 87%] Built target gpd_grasp_detector
+[ 87%] Built target gpd_test_grasp_image
+[ 96%] Built target gpd_detect_grasps
+[ 96%] Built target gpd_label_grasps
+[ 96%] Built target gpd_sequential_importance_sampling
+[100%] Built target gpd_cem_detect_grasps
+-- Install configuration: "Debug"
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/lib/libgpd.so
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/data_generator.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/grasp_detector.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/clustering.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_1_channels_strategy.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_geometry.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_generator.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_15_channels_strategy.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_12_channels_strategy.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_strategy.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_3_channels_strategy.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/plot.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/point_list.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/config_file.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/cloud.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/eigen_utils.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/sequential_importance_sampling.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/caffe_classifier.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/layer.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/dense_layer.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/classifier.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/eigen_classifier.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/conv_layer.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/openvino_classifier.h.in
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/frame_estimator.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/candidates_generator.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/finger_hand.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand_set.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/local_frame.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand_geometry.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand_search.h
+-- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/antipodal.h

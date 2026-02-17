@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "gpd_ros/srv/detail/compute_grasp_poses__struct.h"
-#include "gpd_ros/srv/detail/compute_grasp_poses__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "gpd_ros/srv/detail/compute_grasp_poses__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "gpd_ros/srv/detail/compute_grasp_poses__functions.h"
+#include "gpd_ros/srv/detail/compute_grasp_poses__struct.h"
 
 #ifdef __cplusplus
 extern "C"

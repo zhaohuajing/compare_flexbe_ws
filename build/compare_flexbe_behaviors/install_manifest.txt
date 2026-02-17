@@ -4,6 +4,7 @@
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/compare_flexbe_behaviors/manifest/example_action_state_behavior.xml
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/compare_flexbe_behaviors/manifest/pointcloudcontactgraspnetpipeine.xml
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/compare_flexbe_behaviors/manifest/example_behavior.xml
+/home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/compare_flexbe_behaviors/manifest/unseenobjclustergraspsampipeine.xml
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/compare_flexbe_behaviors/config/example.yaml
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/compare_flexbe_behaviors/copy_behavior
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/share/compare_flexbe_behaviors/environment/pythonpath.sh
@@ -12,12 +13,11 @@
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors-0.0.1-py3.12.egg-info/top_level.txt
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors-0.0.1-py3.12.egg-info/SOURCES.txt
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors-0.0.1-py3.12.egg-info/PKG-INFO
+/home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors/unseenobjclustergraspsampipeine_sm.py
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors/example_action_state_behavior_sm.py
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors/unseenobjclustercontactgraspnetpipeine_sm.py
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors/__init__.py
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors/example_behavior_sm.py
-/home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors/backup/euclideanclusterextractionpipeine_sm2.py
-/home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors/backup/unseenobjclustercloudcontactgraspnetpipeine_sm.py
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors/pointcloudcontactgraspnetpipeine_sm.py
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors/euclideanclusterextractionpipeine_sm.py
 /home/csrobot/flexbe_ws/install/compare_flexbe_behaviors/lib/python3.12/site-packages/compare_flexbe_behaviors/euclideanclustercontactgraspnetpipeine_sm.py

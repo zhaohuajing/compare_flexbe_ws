@@ -1,0 +1,75 @@
+[0.032s] Invoking command in '/home/csrobot/flexbe_ws/build/gpd': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csrobot/flexbe_ws/build/gpd -- -j8 -l8
+[0.093s] [  3%] Built target gpd_conv_layer
+[0.096s] [  6%] Built target gpd_dense_layer
+[0.110s] [ 12%] Built target gpd_local_frame
+[0.110s] [ 12%] Built target gpd_finger_hand
+[0.133s] [ 15%] Built target gpd_eigen_utils
+[0.155s] [ 20%] Built target gpd_classifier
+[0.180s] [ 23%] Built target gpd_cloud
+[0.203s] [ 26%] Built target gpd_point_list
+[0.226s] [ 29%] Built target gpd_frame_estimator
+[0.246s] [ 32%] Built target gpd_antipodal
+[0.266s] [ 35%] Built target gpd_hand
+[0.286s] [ 38%] Built target gpd_config_file
+[0.306s] [ 41%] Built target gpd_clustering
+[0.323s] [ 44%] Built target gpd_hand_geometry
+[0.341s] [ 47%] Built target gpd_image_geometry
+[0.364s] [ 50%] Built target gpd_hand_set
+[0.387s] [ 53%] Built target gpd_image_15_channels_strategy
+[0.417s] [ 56%] Built target gpd_plot
+[0.440s] [ 60%] Built target gpd_image_12_channels_strategy
+[0.446s] [ 63%] Built target gpd_hand_search
+[0.463s] [ 66%] Built target gpd_image_3_channels_strategy
+[0.476s] [ 69%] Built target gpd_candidates_generator
+[0.488s] [ 72%] Built target gpd_image_1_channels_strategy
+[0.505s] [ 75%] Built target gpd_generate_candidates
+[0.520s] [ 78%] Built target gpd_image_strategy
+[0.540s] [ 81%] Built target gpd_image_generator
+[0.572s] [ 84%] Built target gpd_test_grasp_image
+[0.573s] [ 87%] Built target gpd_grasp_detector
+[0.602s] [ 93%] Built target gpd_sequential_importance_sampling
+[0.602s] [ 93%] Built target gpd_detect_grasps
+[0.632s] [100%] Built target gpd_cem_detect_grasps
+[0.632s] [100%] Built target gpd_label_grasps
+[0.822s] Invoked command in '/home/csrobot/flexbe_ws/build/gpd' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csrobot/flexbe_ws/build/gpd -- -j8 -l8
+[0.823s] Invoking command in '/home/csrobot/flexbe_ws/build/gpd': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csrobot/flexbe_ws/build/gpd
+[0.829s] -- Install configuration: "Debug"
+[0.829s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/lib/libgpd.so
+[0.829s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd
+[0.830s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/data_generator.h
+[0.830s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/grasp_detector.h
+[0.830s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/clustering.h
+[0.830s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor
+[0.830s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_1_channels_strategy.h
+[0.830s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_geometry.h
+[0.830s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_generator.h
+[0.830s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_15_channels_strategy.h
+[0.830s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_12_channels_strategy.h
+[0.830s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_strategy.h
+[0.830s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/descriptor/image_3_channels_strategy.h
+[0.831s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util
+[0.832s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/plot.h
+[0.832s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/point_list.h
+[0.832s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/config_file.h
+[0.832s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/cloud.h
+[0.832s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/util/eigen_utils.h
+[0.832s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/sequential_importance_sampling.h
+[0.832s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net
+[0.834s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/caffe_classifier.h
+[0.834s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/layer.h
+[0.834s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/dense_layer.h
+[0.834s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/classifier.h
+[0.834s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/eigen_classifier.h
+[0.834s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/conv_layer.h
+[0.834s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/net/openvino_classifier.h.in
+[0.834s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate
+[0.835s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/frame_estimator.h
+[0.835s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/candidates_generator.h
+[0.835s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/finger_hand.h
+[0.835s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand_set.h
+[0.835s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/local_frame.h
+[0.835s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand.h
+[0.835s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand_geometry.h
+[0.835s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/hand_search.h
+[0.835s] -- Up-to-date: /home/csrobot/flexbe_ws/install/gpd/include/gpd/candidate/antipodal.h
+[0.842s] Invoked command in '/home/csrobot/flexbe_ws/build/gpd' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csrobot/flexbe_ws/build/gpd

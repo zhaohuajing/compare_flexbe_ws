@@ -4,3 +4,13 @@ gpd_ros.egg-info/PKG-INFO
 gpd_ros.egg-info/SOURCES.txt
 gpd_ros.egg-info/dependency_links.txt
 gpd_ros.egg-info/top_level.txt
+gpd_ros/msg/__init__.py
+gpd_ros/msg/_cloud_indexed.py
+gpd_ros/msg/_cloud_samples.py
+gpd_ros/msg/_cloud_sources.py
+gpd_ros/msg/_grasp_config.py
+gpd_ros/msg/_grasp_config_list.py
+gpd_ros/msg/_samples_msg.py
+gpd_ros/srv/__init__.py
+gpd_ros/srv/_compute_grasp_poses.py
+gpd_ros/srv/_detect_grasps.py

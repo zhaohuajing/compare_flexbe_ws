@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "gpd_ros/srv/detail/detect_grasps__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "gpd_ros/srv/detail/detect_grasps__struct.h"
 #include "gpd_ros/srv/detail/detect_grasps__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "gpd_ros/srv/detail/detect_grasps__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

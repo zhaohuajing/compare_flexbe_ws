@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "compare_flexbe_utilities/srv/detail/euclidean_clustering__functions.h"
-#include "compare_flexbe_utilities/srv/detail/euclidean_clustering__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "compare_flexbe_utilities/srv/detail/euclidean_clustering__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "compare_flexbe_utilities/srv/detail/euclidean_clustering__struct.h"
+#include "compare_flexbe_utilities/srv/detail/euclidean_clustering__functions.h"
 
 #ifdef __cplusplus
 extern "C"

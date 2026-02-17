@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "gpd_ros/msg/detail/grasp_config_list__type_support.h"
+#include "gpd_ros/msg/detail/grasp_config_list__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "gpd_ros/msg/detail/grasp_config_list__functions.h"
-#include "gpd_ros/msg/detail/grasp_config_list__struct.h"
+#include "gpd_ros/msg/detail/grasp_config_list__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

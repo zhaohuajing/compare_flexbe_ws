@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "flexbe_msgs/msg/detail/outcome_condition__struct.h"
 #include "flexbe_msgs/msg/detail/outcome_condition__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "flexbe_msgs/msg/detail/outcome_condition__type_support.h"
 
 #ifdef __cplusplus

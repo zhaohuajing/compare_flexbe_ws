@@ -24,12 +24,12 @@ gpd_ros__msg__CloudSamples__get_type_hash(
 
 // Include directives for referenced types
 #include "std_msgs/msg/detail/header__functions.h"
-#include "builtin_interfaces/msg/detail/time__functions.h"
-#include "sensor_msgs/msg/detail/point_field__functions.h"
-#include "geometry_msgs/msg/detail/point__functions.h"
-#include "sensor_msgs/msg/detail/point_cloud2__functions.h"
 #include "gpd_ros/msg/detail/cloud_sources__functions.h"
+#include "sensor_msgs/msg/detail/point_cloud2__functions.h"
 #include "std_msgs/msg/detail/int64__functions.h"
+#include "sensor_msgs/msg/detail/point_field__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
+#include "geometry_msgs/msg/detail/point__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

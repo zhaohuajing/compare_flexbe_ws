@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "flexbe_msgs/msg/detail/userdata_info__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "flexbe_msgs/msg/detail/userdata_info__struct.h"
 #include "flexbe_msgs/msg/detail/userdata_info__functions.h"
-#include "flexbe_msgs/msg/detail/userdata_info__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

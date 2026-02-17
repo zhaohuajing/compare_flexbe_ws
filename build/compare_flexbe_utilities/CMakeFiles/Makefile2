@@ -79,12 +79,12 @@ all: CMakeFiles/compare_flexbe_utilities_s__rosidl_typesupport_c.dir/all
 all: CMakeFiles/cartesian_move_to_pose_service.dir/all
 all: CMakeFiles/move_to_named_pose_service.dir/all
 all: CMakeFiles/move_to_pose_service.dir/all
-all: CMakeFiles/reach_to_grasp_service.dir/all
 all: CMakeFiles/voxel_grid_filter_service.dir/all
 all: CMakeFiles/plane_segmentation_service.dir/all
 all: CMakeFiles/euclidean_clustering_service.dir/all
 all: CMakeFiles/get_point_cloud_service.dir/all
 all: CMakeFiles/filter_by_indices_service.dir/all
+all: CMakeFiles/reach_to_grasp_service.dir/all
 all: compare_flexbe_utilities__py/all
 .PHONY : all
 
@@ -114,12 +114,12 @@ clean: CMakeFiles/compare_flexbe_utilities_s__rosidl_typesupport_c.dir/clean
 clean: CMakeFiles/cartesian_move_to_pose_service.dir/clean
 clean: CMakeFiles/move_to_named_pose_service.dir/clean
 clean: CMakeFiles/move_to_pose_service.dir/clean
-clean: CMakeFiles/reach_to_grasp_service.dir/clean
 clean: CMakeFiles/voxel_grid_filter_service.dir/clean
 clean: CMakeFiles/plane_segmentation_service.dir/clean
 clean: CMakeFiles/euclidean_clustering_service.dir/clean
 clean: CMakeFiles/get_point_cloud_service.dir/clean
 clean: CMakeFiles/filter_by_indices_service.dir/clean
+clean: CMakeFiles/reach_to_grasp_service.dir/clean
 clean: compare_flexbe_utilities__py/clean
 .PHONY : clean
 
@@ -715,34 +715,6 @@ CMakeFiles/move_to_pose_service.dir/clean:
 .PHONY : CMakeFiles/move_to_pose_service.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/reach_to_grasp_service.dir
-
-# All Build rule for target.
-CMakeFiles/reach_to_grasp_service.dir/all: CMakeFiles/compare_flexbe_utilities__rosidl_generator_c.dir/all
-CMakeFiles/reach_to_grasp_service.dir/all: CMakeFiles/compare_flexbe_utilities__cpp.dir/all
-CMakeFiles/reach_to_grasp_service.dir/all: CMakeFiles/compare_flexbe_utilities__rosidl_typesupport_cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reach_to_grasp_service.dir/build.make CMakeFiles/reach_to_grasp_service.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reach_to_grasp_service.dir/build.make CMakeFiles/reach_to_grasp_service.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/csrobot/flexbe_ws/build/compare_flexbe_utilities/CMakeFiles --progress-num=97,98 "Built target reach_to_grasp_service"
-.PHONY : CMakeFiles/reach_to_grasp_service.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/reach_to_grasp_service.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/csrobot/flexbe_ws/build/compare_flexbe_utilities/CMakeFiles 34
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/reach_to_grasp_service.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/csrobot/flexbe_ws/build/compare_flexbe_utilities/CMakeFiles 0
-.PHONY : CMakeFiles/reach_to_grasp_service.dir/rule
-
-# Convenience name for target.
-reach_to_grasp_service: CMakeFiles/reach_to_grasp_service.dir/rule
-.PHONY : reach_to_grasp_service
-
-# clean rule for target.
-CMakeFiles/reach_to_grasp_service.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reach_to_grasp_service.dir/build.make CMakeFiles/reach_to_grasp_service.dir/clean
-.PHONY : CMakeFiles/reach_to_grasp_service.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/voxel_grid_filter_service.dir
 
 # All Build rule for target.
@@ -881,6 +853,34 @@ filter_by_indices_service: CMakeFiles/filter_by_indices_service.dir/rule
 CMakeFiles/filter_by_indices_service.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_by_indices_service.dir/build.make CMakeFiles/filter_by_indices_service.dir/clean
 .PHONY : CMakeFiles/filter_by_indices_service.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/reach_to_grasp_service.dir
+
+# All Build rule for target.
+CMakeFiles/reach_to_grasp_service.dir/all: CMakeFiles/compare_flexbe_utilities__rosidl_generator_c.dir/all
+CMakeFiles/reach_to_grasp_service.dir/all: CMakeFiles/compare_flexbe_utilities__cpp.dir/all
+CMakeFiles/reach_to_grasp_service.dir/all: CMakeFiles/compare_flexbe_utilities__rosidl_typesupport_cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reach_to_grasp_service.dir/build.make CMakeFiles/reach_to_grasp_service.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reach_to_grasp_service.dir/build.make CMakeFiles/reach_to_grasp_service.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/csrobot/flexbe_ws/build/compare_flexbe_utilities/CMakeFiles --progress-num=97,98 "Built target reach_to_grasp_service"
+.PHONY : CMakeFiles/reach_to_grasp_service.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/reach_to_grasp_service.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/csrobot/flexbe_ws/build/compare_flexbe_utilities/CMakeFiles 34
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/reach_to_grasp_service.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/csrobot/flexbe_ws/build/compare_flexbe_utilities/CMakeFiles 0
+.PHONY : CMakeFiles/reach_to_grasp_service.dir/rule
+
+# Convenience name for target.
+reach_to_grasp_service: CMakeFiles/reach_to_grasp_service.dir/rule
+.PHONY : reach_to_grasp_service
+
+# clean rule for target.
+CMakeFiles/reach_to_grasp_service.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reach_to_grasp_service.dir/build.make CMakeFiles/reach_to_grasp_service.dir/clean
+.PHONY : CMakeFiles/reach_to_grasp_service.dir/clean
 
 #=============================================================================
 # Target rules for target /home/csrobot/flexbe_ws/build/compare_flexbe_utilities/compare_flexbe_utilities__py/CMakeFiles/compare_flexbe_utilities__py.dir

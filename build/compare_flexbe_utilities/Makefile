@@ -445,19 +445,6 @@ move_to_pose_service/fast:
 .PHONY : move_to_pose_service/fast
 
 #=============================================================================
-# Target rules for targets named reach_to_grasp_service
-
-# Build rule for target.
-reach_to_grasp_service: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reach_to_grasp_service
-.PHONY : reach_to_grasp_service
-
-# fast build rule for target.
-reach_to_grasp_service/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reach_to_grasp_service.dir/build.make CMakeFiles/reach_to_grasp_service.dir/build
-.PHONY : reach_to_grasp_service/fast
-
-#=============================================================================
 # Target rules for targets named voxel_grid_filter_service
 
 # Build rule for target.
@@ -521,6 +508,19 @@ filter_by_indices_service: cmake_check_build_system
 filter_by_indices_service/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_by_indices_service.dir/build.make CMakeFiles/filter_by_indices_service.dir/build
 .PHONY : filter_by_indices_service/fast
+
+#=============================================================================
+# Target rules for targets named reach_to_grasp_service
+
+# Build rule for target.
+reach_to_grasp_service: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reach_to_grasp_service
+.PHONY : reach_to_grasp_service
+
+# fast build rule for target.
+reach_to_grasp_service/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reach_to_grasp_service.dir/build.make CMakeFiles/reach_to_grasp_service.dir/build
+.PHONY : reach_to_grasp_service/fast
 
 #=============================================================================
 # Target rules for targets named compare_flexbe_utilities__py

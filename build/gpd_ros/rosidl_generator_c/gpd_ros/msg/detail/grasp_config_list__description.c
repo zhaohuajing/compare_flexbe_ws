@@ -24,10 +24,10 @@ gpd_ros__msg__GraspConfigList__get_type_hash(
 
 // Include directives for referenced types
 #include "std_msgs/msg/detail/header__functions.h"
+#include "gpd_ros/msg/detail/grasp_config__functions.h"
 #include "geometry_msgs/msg/detail/vector3__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
 #include "geometry_msgs/msg/detail/point__functions.h"
-#include "gpd_ros/msg/detail/grasp_config__functions.h"
 #include "std_msgs/msg/detail/float32__functions.h"
 
 // Hashes for external referenced types

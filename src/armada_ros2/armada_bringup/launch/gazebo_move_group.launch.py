@@ -194,27 +194,34 @@ def launch_setup(context, *args, **kwargs):
         output="screen",
     )
 
+    graspsam_bringup = Node(
+        package="graspsam_ros2",
+        executable="graspsam_server.py", 
+        name="graspsam_server", 
+        output="screen",
+    )
+
     
     #####################
     # TOP-DOWN CAMERA
     #####################
 
-    # spawn_camera = Node(
-    #     package='ros_gz_sim',
-    #     executable='create',
-    #     arguments=[
-    #         '-file', f'{gazebo_package_path}/rgbd_camera/model/rgbd_camera_model.sdf',
-    #         '-name', 'rgbd_camera',
-    #         '-x', '0.5', '-y', '0.0', '-z', '2.0', '-R', '0.0', '-P', '1.5708', '-Y', '0.0',  # Adjust pose if needed, camera has no collision
-    #     ],
-    #     output='screen'
-    # )
+    spawn_camera = Node(
+        package='ros_gz_sim',
+        executable='create',
+        arguments=[
+            '-file', f'{gazebo_package_path}/rgbd_camera/model/rgbd_camera_model.sdf',
+            '-name', 'rgbd_camera',
+            '-x', '0.5', '-y', '0.0', '-z', '1.5', '-R', '0.0', '-P', '1.5708', '-Y', '0.0',  # Adjust pose if needed, camera has no collision
+        ],
+        output='screen'
+    )
 
-    # sim_camera_tf = Node(
-    #     package="tf2_ros",
-    #     executable="static_transform_publisher",
-    #     arguments=["0.5", "0", "1.75", "0", "1.5708", "0", "simple_pedestal", "rgbd_camera/camera_link/rgbd_camera"],   # transform from base of robot is camera height - height of base over ground (1.5 - 0.25)
-    # )
+    sim_camera_tf = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        arguments=["0.5", "0", "1.25", "0", "1.5708", "0", "simple_pedestal", "rgbd_camera/camera_link/rgbd_camera"],   # transform from base of robot is camera height - height of base over ground (1.5 - 0.25)
+    )
 
     #####################
     # 45-DEG CAMERA
@@ -243,22 +250,22 @@ def launch_setup(context, *args, **kwargs):
     #####################
 
 
-    spawn_camera = Node(
-        package='ros_gz_sim',
-        executable='create',
-        arguments=[
-            '-file', f'{gazebo_package_path}/rgbd_camera/model/rgbd_camera_model.sdf',
-            '-name', 'rgbd_camera',
-            '-x', '0.0', '-y', '0.2', '-z', '1.5', '-R', '0.0', '-P', '1.2', '-Y', '0.0',  # Adjust pose if needed, camera has no collision
-        ],
-        output='screen'
-    )
+    # spawn_camera = Node(
+    #     package='ros_gz_sim',
+    #     executable='create',
+    #     arguments=[
+    #         '-file', f'{gazebo_package_path}/rgbd_camera/model/rgbd_camera_model.sdf',
+    #         '-name', 'rgbd_camera',
+    #         '-x', '0.0', '-y', '0.2', '-z', '1.5', '-R', '0.0', '-P', '1.2', '-Y', '0.0',  # Adjust pose if needed, camera has no collision
+    #     ],
+    #     output='screen'
+    # )
 
-    sim_camera_tf = Node(
-        package="tf2_ros",
-        executable="static_transform_publisher",
-        arguments=["0.0", "0.2", "1.25", "0", "1.2", "0", "simple_pedestal", "rgbd_camera/camera_link/rgbd_camera"],   # transform from base of robot is camera height - height of base over ground (1.5 - 0.25)
-    )
+    # sim_camera_tf = Node(
+    #     package="tf2_ros",
+    #     executable="static_transform_publisher",
+    #     arguments=["0.0", "0.2", "1.25", "0", "1.2", "0", "simple_pedestal", "rgbd_camera/camera_link/rgbd_camera"],   # transform from base of robot is camera height - height of base over ground (1.5 - 0.25)
+    # )
 
 
     ##################
@@ -451,7 +458,7 @@ def launch_setup(context, *args, **kwargs):
     #     executable='create',
     #     arguments=[
     #         '-file', '/home/csrobot/gazebo_models/wood_cube_10cm/model.sdf',
-    #         '-name', 'object_1',
+    #         '-name', 'object_0',
     #         '-x', '0.55', '-y', '0.05', '-z', '0.65', '-R', '0.0', '-P', '0.0', '-Y', '0.0',  # Adjust pose if needed
     #     ],
     #     output='screen'
@@ -480,17 +487,33 @@ def launch_setup(context, *args, **kwargs):
     # )
 
     object_model_path = home_path/"gazebo_models"/"wood_cylinder_flared_2_5cm"/"model.sdf"
+    
     spawn_object = Node(
         package='ros_gz_sim',
         executable='create',
         arguments=[
             '-file', str(object_model_path),
-            '-name', 'object_1',
+            '-name', 'object_2',
             '-x', '0.55', '-y', '0.05', '-z', '0.65', '-R', '0.0', '-P', '0.0', '-Y', '0.0',  # Adjust pose if needed
             # '-x', '0.55', '-y', '0.05', '-z', '0.65', '-R', '0.0', '-P', '1.57075', '-Y', '0.0',
         ],
         output='screen'
     )
+
+    # object_model_path = home_path/"gazebo_models"/"005_tomato_soup_can"/"005_tomato_soup_can.urdf"
+    # spawn_object = Node(
+    #     package='ros_gz_sim',
+    #     executable='create',
+    #     arguments=[
+    #         '-name', 'tomato_can_001',
+    #         '-file', str(object_model_path),
+    #         '-x', '0.5',
+    #         '-y', '0.0',
+    #         '-z', '0.25'
+    #     ],
+    #     output='screen'
+    # )
+
 
     detect_grasps = Node(
         package="gpd_ros",
@@ -550,6 +573,7 @@ def launch_setup(context, *args, **kwargs):
         cgn_rgbd_bringup,
         # uoc_cloud_bringup,
         uoc_rgbd_bringup,
+        graspsam_bringup,
     ]
 
 def generate_launch_description():

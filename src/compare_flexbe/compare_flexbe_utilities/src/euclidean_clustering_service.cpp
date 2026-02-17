@@ -10,6 +10,8 @@
 #include <pcl/common/centroid.h>
 
 #include <pcl_msgs/msg/point_indices.hpp>
+// #include "gpd_ros/msg/cloud_indexed.hpp"
+// #include "gpd_ros/msg/cloud_sources.hpp"
 
 #include "compare_flexbe_utilities/srv/euclidean_clustering.hpp"
 

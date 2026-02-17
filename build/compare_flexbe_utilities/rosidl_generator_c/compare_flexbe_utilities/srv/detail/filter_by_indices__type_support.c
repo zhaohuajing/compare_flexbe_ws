@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "compare_flexbe_utilities/srv/detail/filter_by_indices__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "compare_flexbe_utilities/srv/detail/filter_by_indices__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "compare_flexbe_utilities/srv/detail/filter_by_indices__struct.h"
+#include "compare_flexbe_utilities/srv/detail/filter_by_indices__functions.h"
 
 #ifdef __cplusplus
 extern "C"

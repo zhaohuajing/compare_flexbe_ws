@@ -7,6 +7,7 @@ compare_flexbe_behaviors/example_action_state_behavior_sm.py
 compare_flexbe_behaviors/example_behavior_sm.py
 compare_flexbe_behaviors/pointcloudcontactgraspnetpipeine_sm.py
 compare_flexbe_behaviors/unseenobjclustercontactgraspnetpipeine_sm.py
+compare_flexbe_behaviors/unseenobjclustergraspsampipeine_sm.py
 compare_flexbe_behaviors.egg-info/PKG-INFO
 compare_flexbe_behaviors.egg-info/SOURCES.txt
 compare_flexbe_behaviors.egg-info/dependency_links.txt
