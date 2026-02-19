@@ -196,8 +196,10 @@ def launch_setup(context, *args, **kwargs):
 
     graspsam_bringup = Node(
         package="graspsam_ros2",
-        executable="graspsam_server.py", 
-        name="graspsam_server", 
+        # executable="graspsam_server.py", 
+        # name="graspsam_server", 
+        executable="graspsam_cam2pose_server.py", 
+        name="graspsam_cam2pose_server", 
         output="screen",
     )
 
